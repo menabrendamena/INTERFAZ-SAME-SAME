@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/index.py",
+      "use": "@vercel/python",
+      "config": {
+        "maxLambdaSize": "50mb",
+        "includeFiles": "api/datos/**"
+      }
+    },
+    {
+      "src": "public/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/api/index.py" },
+    {
+      "src": "/(.+\\.[a-zA-Z0-9]+)",
+      "dest": "/public/$1",
+      "headers": { "cache-control": "public, max-age=3600" }
+    },
+    { "src": "/(.*)", "dest": "/public/index.html" }
+  ]
+}
