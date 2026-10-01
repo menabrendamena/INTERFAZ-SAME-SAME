@@ -1,0 +1,91 @@
+{
+  "modelo": {
+    "funcion_similitud": "coseno",
+    "decaimiento": "uniforme",
+    "rango_maximo": 15,
+    "alfa_ingredientes": 0.55,
+    "politica_candidatos": "sin_filtro",
+    "k_negocio": 5,
+    "tolerancia_empate": 1e-12,
+    "semilla": 42
+  },
+  "escala": {
+    "base": "percentil y separación robusta sobre el universo económico completo",
+    "percentil_nivel_1": 99.0,
+    "separacion_nivel_1": 2.479306,
+    "percentil_nivel_2": 72.389558,
+    "criterio_separacion": "percentil diez de la separación del primer candidato entre las consultas del catálogo",
+    "criterio_percentil": "mediana del percentil alcanzado por los pares de equivalencia documentados"
+  },
+  "etiquetas": {
+    "1": {
+      "etiqueta": "Equivalencia respaldada por la fórmula",
+      "descripcion": "La fórmula base de esta alternativa es de las más próximas del catálogo accesible y destaca con claridad del resto de su universo.",
+      "veredicto": "Confirmación de compra sobre la fórmula. La base química de esta alternativa es de las más próximas del catálogo accesible y destaca de su universo. La coincidencia de tono no forma parte de esta evaluación y debes confirmarla tú."
+    },
+    "2": {
+      "etiqueta": "Alternativa plausible con respaldo parcial",
+      "descripcion": "La fórmula base es compatible, pero no se distingue de un grupo amplio de alternativas igual de próximas.",
+      "veredicto": "Compra con reservas. La base química es compatible, pero un grupo amplio de alternativas resulta igual de próximo, de modo que la evidencia de formulación no distingue a esta opción de las demás."
+    },
+    "3": {
+      "etiqueta": "Sin respaldo de fórmula",
+      "descripcion": "La fórmula base no respalda la equivalencia; existen muchas alternativas más próximas en el catálogo accesible.",
+      "veredicto": "Advertencia de compra. La base química no respalda la equivalencia: el catálogo accesible ofrece muchas alternativas más próximas. Esto no significa que el producto sea de mala calidad, sino que su fórmula no sostiene la comparación que se le atribuye."
+    }
+  },
+  "avisos": {
+    "universo_minimo": 50,
+    "alcance": "Same Same compara la base química del producto, no el color. La equivalencia de tono debe confirmarse por separado."
+  },
+  "arquetipos": {
+    "k": 7,
+    "componentes": 11,
+    "varianza_retenida": 0.808675,
+    "silueta": 0.150825,
+    "nombres": {
+      "0": "Perfil dominado por ingredientes sin calificación favorable y control de viscosidad",
+      "1": "Perfil dominado por carga exfoliante y diversidad de funciones",
+      "2": "Perfil dominado por ingredientes mal calificados y carga de perfume",
+      "3": "Perfil dominado por ingredientes bien calificados y carga antioxidante",
+      "4": "Perfil dominado por ingredientes de calificación superior y agentes quelantes",
+      "5": "Perfil dominado por ingredientes destacados y diversidad de funciones",
+      "6": "Perfil dominado por carga de solventes y carga humectante"
+    }
+  },
+  "filtros": {
+    "formatos": [
+      "aceite",
+      "balsamo",
+      "barra",
+      "delineador",
+      "gloss",
+      "liquido",
+      "tinte"
+    ],
+    "etico": [
+      "todas",
+      "solo libres de crueldad animal"
+    ],
+    "vegano": [
+      "todas",
+      "solo veganas por fórmula"
+    ]
+  },
+  "precios": {
+    "moneda": "MXN",
+    "fecha_consulta": "2026-09-28",
+    "tipo_cambio_usd_mxn": 17.71,
+    "niveles_evidencia": [
+      "Observado en México",
+      "Precio oficial en EE. UU. convertido",
+      "Estimado por marca y formato",
+      "Estimado por modelo"
+    ]
+  },
+  "desempeno_declarado": {
+    "MRR_macro": 0.203876,
+    "MRR_micro": 0.079752,
+    "HitRate@5": 0.25
+  }
+}

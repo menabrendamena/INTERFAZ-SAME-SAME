@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Same Same, comparamos fórmulas, no tonos</title>
+<meta name="description" content="Same Same analiza la base química de productos labiales, verifica si una alternativa económica sostiene la equivalencia que se le atribuye frente a un producto de gama alta y muestra cuánto se ahorra en pesos mexicanos.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23F9D7E0'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%23B7D9B0'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<a class="salto-contenido" href="#contenido">Saltar al contenido</a>
+
+<header class="cabecera">
+  <div class="contenedor cabecera__fila">
+    <a class="marca" href="#/explorar" aria-label="Same Same, inicio">
+      <span class="marca__texto">same<br>same</span>
+      <svg class="marca__gota" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21C12 21 3 14.5 3 8.8 3 5.6 5.5 3 8.6 3c1.5 0 2.7.6 3.4 1.6C12.7 3.6 13.9 3 15.4 3 18.5 3 21 5.6 21 8.8 21 14.5 12 21 12 21z"/></svg>
+    </a>
+
+    <nav class="navegacion" aria-label="Navegación principal">
+      <a href="#/explorar" data-ruta="explorar">Explorar</a>
+      <a href="#/comparar" data-ruta="comparar">Comparar</a>
+      <a href="#/marcas" data-ruta="marcas">Marcas</a>
+      <a href="#/como-funciona" data-ruta="como-funciona">Cómo funciona</a>
+      <a href="#/nosotros" data-ruta="nosotros">Sobre Same Same</a>
+    </nav>
+
+    <button class="boton-menu" id="boton-menu" aria-expanded="false" aria-controls="navegacion-movil" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="navegacion-movil" id="navegacion-movil" hidden aria-label="Navegación principal en móvil">
+    <a href="#/explorar">Explorar</a>
+    <a href="#/comparar">Comparar</a>
+    <a href="#/marcas">Marcas</a>
+    <a href="#/como-funciona">Cómo funciona</a>
+    <a href="#/nosotros">Sobre Same Same</a>
+  </nav>
+</header>
+
+<main id="contenido" class="contenido" tabindex="-1">
+  <div class="contenedor">
+    <div class="cargando" id="cargador">
+      <span class="cargando__punto"></span><span class="cargando__punto"></span><span class="cargando__punto"></span>
+    </div>
+  </div>
+</main>
+
+<footer class="pie">
+  <div class="contenedor pie__fila">
+    <div>
+      <p class="pie__marca">same same</p>
+      <p class="pie__lema">proof over hype. Comparamos fórmulas, no tonos.</p>
+    </div>
+    <div class="pie__columna">
+      <p class="pie__titulo">Qué medimos</p>
+      <p>Base química declarada en la lista INCI, arquitectura funcional de la fórmula y precio de referencia en pesos mexicanos.</p>
+    </div>
+    <div class="pie__columna">
+      <p class="pie__titulo">Qué no medimos</p>
+      <p>Tono, pigmentación, desempeño en uso y duración real.</p>
+    </div>
+    <div class="pie__columna">
+      <p class="pie__titulo">Fuentes</p>
+      <p>Listas INCI publicadas por el repositorio INKEEDecoder. Precios consultados en minoristas con operación en México en una sola fecha.</p>
+    </div>
+  </div>
+  <div class="contenedor pie__legal">
+    <p>Proyecto académico de análisis de formulación cosmética. Sin relación comercial con las marcas citadas. Los precios son de referencia y no constituyen una oferta de venta.</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,549 @@
+clave_linea,marca,nombre_linea,gama,formato,nivel_evidencia,precio_referencia,precio_min,precio_max,texto_interfaz
+benefit::love-tint,Benefit,Benefit Love Tint,alta,tinte,Estimado por marca y formato,625,530,720,Entre $530 y $720 MXN
+benefit::benetint-liquid-lip-cheek-stain,Benefit,Benetint Liquid Lip & Cheek Stain,alta,tinte,Observado en México,625,530,720,Entre $530 y $720 MXN
+benefit::floratint-cheek-and-lip-stain,Benefit,Floratint Cheek And Lip Stain,alta,tinte,Estimado por marca y formato,625,530,720,Entre $530 y $720 MXN
+benefit::gogo-tint,Benefit,Gogo Tint,alta,tinte,Estimado por marca y formato,625,530,720,Entre $530 y $720 MXN
+benefit::posietint-cheek-lip-stain,Benefit,Posietint Cheek & Lip Stain,alta,tinte,Estimado por marca y formato,625,530,720,Entre $530 y $720 MXN
+chanel::hydra-beauty-nourishing-lip-care,Chanel,Hydra Beauty Nourishing Lip Care,alta,balsamo,Estimado por marca y formato,1000,930,1100,"Entre $930 y $1,100 MXN"
+chanel::les-beiges-healthy-glow-lip-balm,Chanel,Les Beiges Healthy Glow Lip Balm,alta,balsamo,Observado en México,930,820,930,Entre $820 y $930 MXN
+chanel::lip-and-cheek-balm,Chanel,Lip And Cheek Balm,alta,balsamo,Observado en México,1100,970,1100,"Entre $970 y $1,100 MXN"
+chanel::ndeg1-de-chanel-lip-and-cheek-balm,Chanel,N°1 De Chanel Lip And Cheek Balm,alta,balsamo,Observado en México,1100,970,1100,"Entre $970 y $1,100 MXN"
+chanel::rouge-coco-baume,Chanel,Rouge Coco Baume,alta,balsamo,Observado en México,970,855,970,Entre $855 y $970 MXN
+chanel::rouge-allure,Chanel,Rouge Allure,alta,barra,Observado en México,1100,970,1100,"Entre $970 y $1,100 MXN"
+chanel::rouge-allure-lextrait,Chanel,Rouge Allure L'extrait,alta,barra,Observado en México,1280,1130,1280,"Entre $1,130 y $1,280 MXN"
+chanel::rouge-allure-velvet-extreme,Chanel,Rouge Allure Velvet Extreme,alta,barra,Observado en México,1155,1065,1210,"Entre $1,065 y $1,210 MXN"
+chanel::rouge-allure-velvet-luminous-matte-lip-colour,Chanel,Rouge Allure Velvet Luminous Matte Lip Colour,alta,barra,Observado en México,1155,1065,1210,"Entre $1,065 y $1,210 MXN"
+chanel::rouge-coco-baume-shine,Chanel,Rouge Coco Baume Shine,alta,barra,Observado en México,970,855,970,Entre $855 y $970 MXN
+chanel::rouge-coco-bloom,Chanel,Rouge Coco Bloom,alta,barra,Observado en México,1100,970,1100,"Entre $970 y $1,100 MXN"
+chanel::rouge-coco-flash,Chanel,Rouge Coco Flash,alta,barra,Observado en México,1100,970,1100,"Entre $970 y $1,100 MXN"
+chanel::rouge-coco-ultra-hydrating-lip-color,Chanel,Rouge Coco Ultra Hydrating Lip Color,alta,barra,Observado en México,1100,970,1100,"Entre $970 y $1,100 MXN"
+chanel::rouge-coco-gloss-moisturizing-glossimer,Chanel,Rouge Coco Gloss Moisturizing Glossimer,alta,gloss,Observado en México,970,855,970,Entre $855 y $970 MXN
+chanel::rouge-allure-ink,Chanel,Rouge Allure Ink,alta,liquido,Estimado por marca y formato,1130,1050,1190,"Entre $1,050 y $1,190 MXN"
+chanel::rouge-allure-laque-ultrawear-shine-liquid-lip-colour,Chanel,Rouge Allure Laque Ultrawear Shine Liquid Lip Colour,alta,liquido,Observado en México,1145,1050,1190,"Entre $1,050 y $1,190 MXN"
+chanel::rouge-allure-liquid-powder,Chanel,Rouge Allure Liquid Powder,alta,liquido,Estimado por marca y formato,1130,1050,1190,"Entre $1,050 y $1,190 MXN"
+charlotte-tilbury::magic-lip-oil,Charlotte Tilbury,Magic Lip Oil,alta,aceite,Estimado por modelo,920,760,1120,"Entre $760 y $1,120 MXN"
+charlotte-tilbury::easy-lip-cheek-wand,Charlotte Tilbury,Easy Lip & Cheek Wand,alta,barra,Estimado por marca y formato,830,730,830,Entre $730 y $830 MXN
+charlotte-tilbury::glowgasm-lips,Charlotte Tilbury,Glowgasm Lips,alta,barra,Estimado por marca y formato,830,730,830,Entre $730 y $830 MXN
+charlotte-tilbury::hyaluronic-happikiss-lipstick-balm,Charlotte Tilbury,Hyaluronic Happikiss Lipstick Balm,alta,barra,Estimado por marca y formato,830,730,830,Entre $730 y $830 MXN
+charlotte-tilbury::k-i-s-s-i-n-g-lipstick,Charlotte Tilbury,K.I.S.S.I.N.G Lipstick,alta,barra,Estimado por marca y formato,830,730,830,Entre $730 y $830 MXN
+charlotte-tilbury::matte-revolution-lipstick,Charlotte Tilbury,Matte Revolution Lipstick,alta,barra,Observado en México,830,730,830,Entre $730 y $830 MXN
+charlotte-tilbury::matte-revolution-lipsticks,Charlotte Tilbury,Matte Revolution Lipsticks,alta,barra,Observado en México,830,730,830,Entre $730 y $830 MXN
+charlotte-tilbury::pillow-talk-lip-and-cheek-glow,Charlotte Tilbury,Pillow Talk Lip And Cheek Glow,alta,barra,Estimado por marca y formato,830,730,830,Entre $730 y $830 MXN
+charlotte-tilbury::pillow-talk-love-effect-lipstick-k-i-s-s-i-n-g-naughty-talk,Charlotte Tilbury,Pillow Talk Love Effect Lipstick K.i.s.s.i.n.g,alta,barra,Estimado por marca y formato,830,730,830,Entre $730 y $830 MXN
+charlotte-tilbury::lip-cheat-liner,Charlotte Tilbury,Lip Cheat Liner,alta,delineador,Observado en México,620,545,620,Entre $545 y $620 MXN
+charlotte-tilbury::big-lip-plumpgasm,Charlotte Tilbury,Big Lip Plumpgasm,alta,gloss,Observado en México,830,730,830,Entre $730 y $830 MXN
+charlotte-tilbury::collagen-lip-bath-gloss,Charlotte Tilbury,Collagen Lip Bath Gloss,alta,gloss,Estimado por marca y formato,830,730,830,Entre $730 y $830 MXN
+charlotte-tilbury::jewel-lips,Charlotte Tilbury,Jewel Lips,alta,gloss,Estimado por marca y formato,830,730,830,Entre $730 y $830 MXN
+charlotte-tilbury::lip-lustre,Charlotte Tilbury,Lip Lustre,alta,gloss,Estimado por marca y formato,830,730,830,Entre $730 y $830 MXN
+charlotte-tilbury::superstar-lips,Charlotte Tilbury,Superstar Lips,alta,gloss,Observado en México,830,730,830,Entre $730 y $830 MXN
+clinique::pop-tm-lip-cheek-oil-in-black-honey,Clinique,Pop Lip + Cheek Oil In Black Honey,alta,aceite,Estimado por modelo,560,460,680,Entre $460 y $680 MXN
+clinique::chubby-stick-tm-moisturizing-lip-colour-balm,Clinique,Chubby Stick Moisturizing Lip Colour Balm,alta,balsamo,Observado en México,499,440,499,Entre $440 y $499 MXN
+clinique::chubby-stick-moisturizing-lip-colour-balm-whole-lotta-honey,Clinique,Chubby Stick Moisturizing Lip Colour Balm Whole Lotta Honey,alta,balsamo,Observado en México,499,440,499,Entre $440 y $499 MXN
+clinique::full-potential-lips,Clinique,Full Potential Lips,alta,balsamo,Estimado por marca y formato,499,440,499,Entre $440 y $499 MXN
+clinique::moisture-surge-lip,Clinique,Moisture Surge Lip,alta,balsamo,Estimado por marca y formato,499,440,499,Entre $440 y $499 MXN
+clinique::moisture-surge-lip-hydro-plump-treatment,Clinique,Moisture Surge Lip Hydro-Plump Treatment,alta,balsamo,Estimado por marca y formato,499,440,499,Entre $440 y $499 MXN
+clinique::moisture-surge-tm-pop-triple-lip-balm,Clinique,Moisture Surge Pop Triple Lip Balm,alta,balsamo,Estimado por marca y formato,499,440,499,Entre $440 y $499 MXN
+clinique::repairwear-tm-intensive-lip-treatment,Clinique,Repairwear Intensive Lip Treatment,alta,balsamo,Estimado por marca y formato,499,440,499,Entre $440 y $499 MXN
+clinique::superbalm-lip-treatment,Clinique,Superbalm Lip Treatment,alta,balsamo,Estimado por marca y formato,499,440,499,Entre $440 y $499 MXN
+clinique::almost-lipstick,Clinique,Almost Lipstick,alta,barra,Observado en México,499,440,499,Entre $440 y $499 MXN
+clinique::dramatically-different-lipstick-shaping-lip-colour,Clinique,Dramatically Different Lipstick Shaping Lip Colour,alta,barra,Estimado por marca y formato,499,440,499,Entre $440 y $499 MXN
+clinique::pop-lip-lipstick,Clinique,Pop Lip Lipstick,alta,barra,Estimado por marca y formato,499,440,499,Entre $440 y $499 MXN
+clinique::pop-longwear-lipstick,Clinique,Pop Longwear Lipstick,alta,barra,Observado en México,499,440,499,Entre $440 y $499 MXN
+clinique::pop-plush-creamy-lip-gloss,Clinique,Pop Plush Creamy Lip Gloss,alta,gloss,Observado en México,499,440,499,Entre $440 y $499 MXN
+clinique::superbalm-gloss-raspberry,Clinique,Superbalm Gloss Raspberry,alta,gloss,Estimado por marca y formato,499,440,499,Entre $440 y $499 MXN
+clinique::all-about-lips,Clinique,All About Lips,alta,tinte,Estimado por modelo,550,450,670,Entre $450 y $670 MXN
+dior::lip-glow-oil,Dior,Lip Glow Oil,alta,aceite,Observado en México,970,855,970,Entre $855 y $970 MXN
+dior::addict-lip-glow,Dior,Addict Lip Glow,alta,balsamo,Observado en México,970,855,970,Entre $855 y $970 MXN
+dior::addict-lip-maximizer-serum,Dior,Addict Lip Maximizer Serum,alta,balsamo,Estimado por marca y formato,970,855,970,Entre $855 y $970 MXN
+dior::addict-lip-glow-butter,Dior,Dior Addict Lip Glow Butter,alta,balsamo,Observado en México,970,855,970,Entre $855 y $970 MXN
+dior::lip-glow,Dior,Lip Glow,alta,balsamo,Observado en México,970,855,970,Entre $855 y $970 MXN
+dior::lip-glow-butter-hydrating-gloss-balm,Dior,Lip Glow Butter Hydrating Gloss Balm,alta,balsamo,Observado en México,970,855,970,Entre $855 y $970 MXN
+dior::lip-maximizer,Dior,Lip Maximizer,alta,balsamo,Observado en México,970,855,970,Entre $855 y $970 MXN
+dior::rouge-dior-balm,Dior,Rouge Dior Balm,alta,balsamo,Estimado por marca y formato,970,855,970,Entre $855 y $970 MXN
+dior::rouge-dior-colored-lip-balm,Dior,Rouge Dior Colored Lip Balm,alta,balsamo,Estimado por marca y formato,970,855,970,Entre $855 y $970 MXN
+dior::addict-hydrating-shine-lipstick,Dior,Addict Hydrating Shine Lipstick,alta,barra,Estimado por marca y formato,992,890,1010,"Entre $890 y $1,010 MXN"
+dior::addict-lipstick,Dior,Addict Lipstick,alta,barra,Observado en México,1010,890,1010,"Entre $890 y $1,010 MXN"
+dior::addict-stellar-shine-lipstick,Dior,Addict Stellar Shine Lipstick,alta,barra,Estimado por marca y formato,992,890,1010,"Entre $890 y $1,010 MXN"
+dior::rouge-dior,Dior,Rouge Dior,alta,barra,Observado en México,975,890,1010,"Entre $890 y $1,010 MXN"
+dior::rouge-dior-forever-liquid,Dior,Rouge Dior Forever Liquid,alta,barra,Observado en México,1010,890,1010,"Entre $890 y $1,010 MXN"
+dior::rouge-dior-lipstick,Dior,Rouge Dior Lipstick,alta,barra,Observado en México,975,890,1010,"Entre $890 y $1,010 MXN"
+dior::rouge-dior-on-stage,Dior,Rouge Dior On Stage,alta,barra,Observado en México,1010,890,1010,"Entre $890 y $1,010 MXN"
+dior::rouge-dior-ultra-rouge-lipstick,Dior,Rouge Dior Ultra Rouge Lipstick,alta,barra,Estimado por marca y formato,992,890,1010,"Entre $890 y $1,010 MXN"
+dior::addict-lip-maximizer,Dior,Addict Lip Maximizer,alta,gloss,Observado en México,970,855,970,Entre $855 y $970 MXN
+dior::rouge-dior-forever-liquid-lacquer-lipstick,Dior,Rouge Dior Forever Liquid Lacquer Lipstick,alta,liquido,Observado en México,1010,890,1010,"Entre $890 y $1,010 MXN"
+dior::addict-lip-tattoo,Dior,Addict Lip Tattoo,alta,tinte,Estimado por modelo,1050,870,1280,"Entre $870 y $1,280 MXN"
+dior::addict-lip-tint,Dior,Addict Lip Tint,alta,tinte,Estimado por modelo,1050,870,1280,"Entre $870 y $1,280 MXN"
+dior::lip-tattoo-2,Dior,Lip Tattoo,alta,tinte,Estimado por modelo,1050,870,1280,"Entre $870 y $1,280 MXN"
+fenty-beauty::gloss-bomb-oil-luminizing-lip-oil-n-gloss,Fenty Beauty,Gloss Bomb Oil Luminizing Lip Oil 'n Gloss,alta,aceite,Estimado por modelo,660,550,810,Entre $550 y $810 MXN
+fenty-beauty::pro-kissr-luscious-lip-balm,Fenty Beauty,Pro Kiss'r Luscious Lip Balm,alta,balsamo,Estimado por modelo,580,480,710,Entre $480 y $710 MXN
+fenty-beauty::icon-the-fill-semi-matte-refillable-lipstick,Fenty Beauty,Icon The Fill Semi-matte Refillable Lipstick,alta,barra,Estimado por modelo,620,510,750,Entre $510 y $750 MXN
+fenty-beauty::match-stix-color-adaptive-cheek-lip-stick,Fenty Beauty,Match Stix Color-adaptive Cheek + Lip Stick,alta,barra,Estimado por modelo,620,510,750,Entre $510 y $750 MXN
+fenty-beauty::slip-shine-sheer-shiny-lipstick,Fenty Beauty,Slip Shine Sheer Shiny Lipstick,alta,barra,Estimado por modelo,620,510,750,Entre $510 y $750 MXN
+fenty-beauty::velvet-mvp-lipstick,Fenty Beauty,Velvet Mvp Lipstick,alta,barra,Estimado por modelo,620,510,750,Entre $510 y $750 MXN
+fenty-beauty::traced-out-longwear-waterproof-pencil-lip-liner,Fenty Beauty,Trace'd Out Longwear Waterproof Pencil Lip Liner,alta,delineador,Estimado por modelo,470,390,570,Entre $390 y $570 MXN
+fenty-beauty::fenty-hot-chocolit-lip-luminizer,Fenty Beauty,Fenty Hot Chocolit Lip Luminizer,alta,gloss,Estimado por marca y formato,587,525,625,Entre $525 y $625 MXN
+fenty-beauty::gloss-bomb,Fenty Beauty,Gloss Bomb,alta,gloss,Observado en México,525,465,525,Entre $465 y $525 MXN
+fenty-beauty::gloss-bomb-cream-color-drip-lip-cream,Fenty Beauty,Gloss Bomb Cream Color Drip Lip Cream,alta,gloss,Observado en México,575,505,575,Entre $505 y $575 MXN
+fenty-beauty::gloss-bomb-heat-universal-lip-luminizer-plumper,Fenty Beauty,Gloss Bomb Heat Universal Lip Luminizer + Plumper,alta,gloss,Observado en México,625,550,625,Entre $550 y $625 MXN
+fenty-beauty::gloss-bomb-ice-cooling-lip-luminizer,Fenty Beauty,Gloss Bomb Ice Cooling Lip Luminizer,alta,gloss,Observado en México,625,550,625,Entre $550 y $625 MXN
+fenty-beauty::gloss-bomb-stix-high-shine-gloss-stick,Fenty Beauty,Gloss Bomb Stix High-shine Gloss Stick,alta,gloss,Observado en México,585,515,585,Entre $515 y $585 MXN
+fenty-beauty::by-rihanna-gloss-bomb-universal-lip-luminizer,Fenty Beauty,Gloss Bomb Universal Lip Luminizer,alta,gloss,Observado en México,525,465,525,Entre $465 y $525 MXN
+fenty-beauty::velvet-liquid-lipstick,Fenty Beauty,Velvet Liquid Lipstick,alta,liquido,Estimado por modelo,710,580,860,Entre $580 y $860 MXN
+fenty-beauty::poutsicle-hydrating-lip-stain,Fenty Beauty,Poutsicle Hydrating Lip Stain,alta,tinte,Observado en México,600,530,600,Entre $530 y $600 MXN
+laneige::bouncy-firm-lip-treatment,Laneige,Bouncy & Firm Lip Treatment,alta,balsamo,Observado en México,665,585,665,Entre $585 y $665 MXN
+laneige::gummy-bear-lip-balm,Laneige,Gummy Bear Lip Balm,alta,balsamo,Observado en México,480,425,480,Entre $425 y $480 MXN
+laneige::lip-balm,Laneige,Lip Balm,alta,balsamo,Estimado por marca y formato,585,480,665,Entre $480 y $665 MXN
+laneige::lip-glowy-balm,Laneige,Lip Glowy Balm,alta,balsamo,Observado en México,480,425,480,Entre $425 y $480 MXN
+laneige::lip-treatment-balm,Laneige,Lip Treatment Balm,alta,balsamo,Estimado por marca y formato,585,480,665,Entre $480 y $665 MXN
+laneige::lipbalm,Laneige,Lipbalm,alta,balsamo,Estimado por marca y formato,585,480,665,Entre $480 y $665 MXN
+laneige::moisture-lip-balm,Laneige,Moisture Lip Balm,alta,balsamo,Estimado por marca y formato,585,480,665,Entre $480 y $665 MXN
+laneige::glaze-craze-tinted-lip-serum,Laneige,Glaze Craze Tinted Lip Serum,alta,gloss,Observado en México,520,460,520,Entre $460 y $520 MXN
+mac::lipglass-blow-plumping-oil,MAC,Lipglass Blow Plumping Oil,alta,aceite,Estimado por modelo,530,440,650,Entre $440 y $650 MXN
+mac::lipglass-cushion-high-pigment-lip-oil,MAC,Lipglass Cushion High-pigment Lip Oil,alta,aceite,Estimado por modelo,530,440,650,Entre $440 y $650 MXN
+mac::lip-conditioner,MAC,Lip Conditioner,alta,balsamo,Estimado por modelo,470,380,570,Entre $380 y $570 MXN
+mac::cremesheen-lipstick-brave-red,MAC,Cremesheen Lipstick,alta,barra,Estimado por marca y formato,533,490,680,Entre $490 y $680 MXN
+mac::dazzlelips-crayon-lipstick,MAC,Dazzlelips Crayon Lipstick,alta,barra,Estimado por marca y formato,533,490,680,Entre $490 y $680 MXN
+mac::love-me-lipstick,MAC,Love Me Lipstick,alta,barra,Estimado por marca y formato,533,490,680,Entre $490 y $680 MXN
+mac::lustreglass-sheer-shine-lipstick,MAC,Lustreglass Sheer-shine Lipstick,alta,barra,Observado en México,540,475,540,Entre $475 y $540 MXN
+mac::m-a-cximal-silky-matte-lipstick,MAC,M·a·cximal Silky Matte Lipstick,alta,barra,Observado en México,490,430,490,Entre $430 y $490 MXN
+mac::m-a-cximal-sleek-satin-lipstick,MAC,M·a·cximal Sleek Satin Lipstick,alta,barra,Estimado por marca y formato,533,490,680,Entre $490 y $680 MXN
+mac::powder-kiss-lipstick,MAC,Powder Kiss Lipstick,alta,barra,Observado en México,520,460,520,Entre $460 y $520 MXN
+mac::powder-kiss-velvet-blur-slim-stick,MAC,Powder Kiss Velvet Blur Slim Stick,alta,barra,Estimado por marca y formato,533,490,680,Entre $490 y $680 MXN
+mac::pro-lip-erase,MAC,Pro Lip Erase,alta,barra,Estimado por marca y formato,533,490,680,Entre $490 y $680 MXN
+mac::retro-matte-lipstick-in-ruby-woo,MAC,Retro Matte Lipstick in Ruby Woo,alta,barra,Observado en México,490,430,490,Entre $430 y $490 MXN
+mac::velvet-teddy-lipstick,MAC,Velvet Teddy Lipstick,alta,barra,Estimado por marca y formato,533,490,680,Entre $490 y $680 MXN
+mac::lip-pencil,MAC,Lip Pencil,alta,delineador,Observado en México,460,405,460,Entre $405 y $460 MXN
+mac::lipglazer-lip-liner,MAC,Lipglazer Lip Liner,alta,delineador,Estimado por marca y formato,460,405,460,Entre $405 y $460 MXN
+mac::lipglass,MAC,Lipglass,alta,gloss,Observado en México,390,345,390,Entre $345 y $390 MXN
+mac::lipglass-air-non-sticky-gloss,MAC,Lipglass Air Non-sticky Gloss,alta,gloss,Observado en México,420,370,420,Entre $370 y $420 MXN
+mac::squirt-plumping-gloss-stick,MAC,Squirt Plumping Gloss Stick,alta,gloss,Estimado por marca y formato,405,370,420,Entre $370 y $420 MXN
+mac::locked-kiss-ink-lipstick,MAC,Locked Kiss Ink Lipstick,alta,liquido,Estimado por marca y formato,490,430,490,Entre $430 y $490 MXN
+mac::lustreglass-stainglass-lip-tint,MAC,Lustreglass Stainglass Lip Tint,alta,tinte,Observado en México,390,345,390,Entre $345 y $390 MXN
+too-faced::kissing-jelly-hydrating-lip-oil-gloss,Too Faced,Kissing Jelly Hydrating Lip Oil Gloss,alta,aceite,Observado en México,550,485,550,Entre $485 y $550 MXN
+too-faced::lip-injection-extreme,Too Faced,Lip Injection Extreme,alta,aceite,Observado en México,760,670,760,Entre $670 y $760 MXN
+too-faced::hangover-pillow-balm-lip-treatment,Too Faced,Hangover Pillow Balm Lip Treatment,alta,balsamo,Estimado por modelo,690,570,840,Entre $570 y $840 MXN
+too-faced::kissing-juicy-tint-lip-balm-cream-soda,Too Faced,Kissing Juicy Tint Lip Balm,alta,balsamo,Estimado por modelo,690,570,840,Entre $570 y $840 MXN
+too-faced::cloud-crush-whipped-lip-cheek-color,Too Faced,Cloud Crush Whipped Lip & Cheek Color,alta,barra,Estimado por modelo,730,600,890,Entre $600 y $890 MXN
+too-faced::lip-injection-extreme-plumping-clicks,Too Faced,Lip Injection Extreme Plumping Clicks,alta,barra,Estimado por modelo,730,600,890,Entre $600 y $890 MXN
+too-faced::lip-injection-extreme-lip-plumper,Too Faced,Lip Injection Extreme Lip Plumper,alta,gloss,Observado en México,760,670,760,Entre $670 y $760 MXN
+too-faced::lip-injection-lip-gloss,Too Faced,Lip Injection Lip Gloss,alta,gloss,Observado en México,760,670,760,Entre $670 y $760 MXN
+too-faced::lip-injection-maximum-plump-extra-strength-lip-plumper,Too Faced,Lip Injection Maximum Plump Extra Strength Lip Plumper,alta,gloss,Observado en México,780,690,780,Entre $690 y $780 MXN
+too-faced::lip-injection-liquid-lipstick,Too Faced,Lip Injection Liquid Lipstick,alta,liquido,Estimado por modelo,840,690,1020,"Entre $690 y $1,020 MXN"
+too-faced::kissing-juicy-tint,Too Faced,Kissing Juicy Tint,alta,tinte,Estimado por modelo,780,640,950,Entre $640 y $950 MXN
+catrice::clean-id-lip-oil,Catrice,Clean ID Lip Oil,economica,aceite,Estimado por marca y formato,124,55,142,Entre $55 y $142 MXN
+catrice::clean-id-plumping-care-lip-oil,Catrice,Clean ID Plumping Care Lip Oil,economica,aceite,Estimado por marca y formato,124,55,142,Entre $55 y $142 MXN
+catrice::colour-cushion-juicy-lip-oil,Catrice,Colour Cushion Juicy Lip Oil,economica,aceite,Precio oficial en EE. UU. convertido,142,115,142,Entre $115 y $142 MXN
+catrice::disney-winnie-the-pooh-lip-oil,Catrice,Disney Winnie The Pooh Lip Oil,economica,aceite,Estimado por marca y formato,124,55,142,Entre $55 y $142 MXN
+catrice::glossin-glow-tinted-lip-oil,Catrice,Glossin' Glow Tinted Lip Oil,economica,aceite,Precio oficial en EE. UU. convertido,106,55,106,Entre $55 y $106 MXN
+catrice::max-it-up-lip-booster-extreme-glowy-plumper,Catrice,Max It Up Lip Booster Extreme Glowy Plumper,economica,aceite,Estimado por marca y formato,124,55,142,Entre $55 y $142 MXN
+catrice::max-it-up-lip-booster-extreme-holo-plumper,Catrice,Max It Up Lip Booster Extreme Holo Plumper,economica,aceite,Estimado por marca y formato,124,55,142,Entre $55 y $142 MXN
+catrice::max-it-up-lip-booster-extreme-icy-plumper,Catrice,Max It Up Lip Booster Extreme Icy Plumper,economica,aceite,Estimado por marca y formato,124,55,142,Entre $55 y $142 MXN
+catrice::max-it-up-lip-booster-extreme-pearl-plumper,Catrice,Max It Up Lip Booster Extreme Pearl Plumper,economica,aceite,Estimado por marca y formato,124,55,142,Entre $55 y $142 MXN
+catrice::power-full-5-glossy-lip-oil,Catrice,Power Full 5 Glossy Lip Oil,economica,aceite,Estimado por marca y formato,124,55,142,Entre $55 y $142 MXN
+catrice::secret-garden-lip-oil-c02-true-bloom,Catrice,Secret Garden Lip Oil,economica,aceite,Estimado por marca y formato,124,55,142,Entre $55 y $142 MXN
+catrice::secret-garden-lip-oil-c01-lips-dont-lie,Catrice,Secret Garden Lip Oil,economica,aceite,Estimado por marca y formato,124,55,142,Entre $55 y $142 MXN
+catrice::secret-garden-lip-oil-c03-secret-kiss,Catrice,Secret Garden Lip Oil,economica,aceite,Estimado por marca y formato,124,55,142,Entre $55 y $142 MXN
+catrice::spring-and-the-city-glossy-nectar-lip-oil,Catrice,Spring And The City Glossy Nectar Lip Oil,economica,aceite,Estimado por marca y formato,124,55,142,Entre $55 y $142 MXN
+catrice::butter-drippin-glossy-lip-balm,Catrice,Butter Drippin' Glossy Lip Balm,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::care-in-colours-lip-balm-everyday,Catrice,Care In Colours Lip Balm Everyday,economica,balsamo,Precio oficial en EE. UU. convertido,106,55,106,Entre $55 y $106 MXN
+catrice::care-in-colours-lip-balm-girlboss,Catrice,Care In Colours Lip Balm Girlboss,economica,balsamo,Precio oficial en EE. UU. convertido,106,55,106,Entre $55 y $106 MXN
+catrice::care-in-colours-lip-balm-half-baked-cookies,Catrice,Care In Colours Lip Balm Half Baked Cookies,economica,balsamo,Precio oficial en EE. UU. convertido,106,55,106,Entre $55 y $106 MXN
+catrice::clean-id-highly-caring-lip-balm,Catrice,Clean ID Highly Caring Lip Balm,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::clean-id-protecting-lip-serum,Catrice,Clean ID Protecting Lip Serum,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::drunkn-diamonds-plumping-lip-balm,Catrice,Drunk'n Diamonds Plumping Lip Balm,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::glam-in-gold-glow-lip-balm,Catrice,Glam In Gold Glow Lip Balm,economica,balsamo,Precio oficial en EE. UU. convertido,106,70,106,Entre $70 y $106 MXN
+catrice::glitter-glam-glow-lip-balm,Catrice,Glitter Glam Glow Lip Balm,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::hemp-mint-glow-lip-balm,Catrice,Hemp & Mint Glow Lip Balm,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::holiday-lips-caring-lip-balm-spf,Catrice,Holiday Lips Caring Lip Balm SPF,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::juicy-bomb-glossy-butter-balm,Catrice,Juicy Bomb Glossy Butter Balm,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::lip-coconut-balm,Catrice,Lip Coconut Balm,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::lip-cushion-protecting-multi-balm-coffee-cocoa,Catrice,Lip Cushion Protecting Multi Balm Coffee & Cocoa,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::lip-lovin-caring-lip-serum,Catrice,Lip Lovin' Caring Lip Serum,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::lip-super-serum,Catrice,Lip Super Serum,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::marble-licious-liquid-lip-balm,Catrice,Marble-Licious Liquid Lip Balm,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::melt-plump-juicy-lip-plumper,Catrice,Melt & Plump Juicy Lip Plumper,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::melt-shine-juicy-lip-balm,Catrice,Melt & Shine Juicy Lip Balm,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::peptide-bliss-glossy-lip-balm,Catrice,Peptide Bliss Glossy Lip Balm,economica,balsamo,Precio oficial en EE. UU. convertido,142,115,142,Entre $115 y $142 MXN
+catrice::perfect-morning-beauty-aid-protecting-lip-balm,Catrice,Perfect Morning Beauty Aid Protecting Lip Balm,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::plump-blur-lip-treatment,Catrice,Plump & Blur Lip Treatment,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::plump-it-up-lip-booster,Catrice,Plump It Up Lip Booster,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::power-full-5-lip-care,Catrice,Power Full 5 Lip Care,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::power-full-5-liquid-lip-balm,Catrice,Power Full 5 Liquid Lip Balm,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::soft-glaze-glow-lip-balm,Catrice,Soft Glaze Glow Lip Balm,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::sparkle-glow-lip-balm,Catrice,Sparkle Glow Lip Balm,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::cosmetics-tinted-lip-glow-balm,Catrice,Tinted Lip Glow Balm,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::volumizing-extreme-lip-balm,Catrice,Volumizing Extreme Lip Balm,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::volumizing-extreme-lip-booster,Catrice,Volumizing Extreme Lip Booster,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::volumizing-tint-glow-lip-balm,Catrice,Volumizing Tint & Glow Lip Balm,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::watermelon-shine-glow-lip-balm,Catrice,Watermelon Shine Glow Lip Balm,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::wild-hibiscus-glow-lip-balm,Catrice,Wild Hibiscus Glow Lip Balm,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::youth-lip-serum,Catrice,Youth Lip Serum,economica,balsamo,Estimado por marca y formato,118,55,142,Entre $55 y $142 MXN
+catrice::clean-id-silk-intense-lipstick,Catrice,Clean ID Silk Intense Lipstick,economica,barra,Estimado por modelo,120,90,140,Entre $90 y $140 MXN
+catrice::demi-matt-lipstick,Catrice,Demi Matt Lipstick,economica,barra,Estimado por modelo,120,90,140,Entre $90 y $140 MXN
+catrice::flower-herb-edition-power-plumping-gel-lipstick,Catrice,Flower & Herb Edition Power Plumping Gel Lipstick,economica,barra,Estimado por modelo,120,90,140,Entre $90 y $140 MXN
+catrice::full-satin-lipstick,Catrice,Full Satin Lipstick,economica,barra,Estimado por modelo,120,90,140,Entre $90 y $140 MXN
+catrice::heart-affair-full-shine-lipstick-heartbreaker,Catrice,Heart Affair Full Shine Lipstick Heartbreaker,economica,barra,Estimado por modelo,120,90,140,Entre $90 y $140 MXN
+catrice::heart-affair-full-shine-lipstick-in-a-heartbeat,Catrice,Heart Affair Full Shine Lipstick In A Heartbeat,economica,barra,Estimado por modelo,120,90,140,Entre $90 y $140 MXN
+catrice::mattlover-lipstick-pen,Catrice,Mattlover Lipstick Pen,economica,barra,Estimado por modelo,120,90,140,Entre $90 y $140 MXN
+catrice::secret-garden-matte-lipstick,Catrice,Secret Garden Matte Lipstick,economica,barra,Estimado por modelo,120,90,140,Entre $90 y $140 MXN
+catrice::ultimate-matt-lipstick,Catrice,Ultimate Matt Lipstick,economica,barra,Estimado por modelo,120,90,140,Entre $90 y $140 MXN
+catrice::vegan-collagen-matt-lipstick,Catrice,Vegan Collagen Matt Lipstick,economica,barra,Estimado por modelo,120,90,140,Entre $90 y $140 MXN
+catrice::creamy-nudes-lip-pen,Catrice,Creamy Nudes Lip Pen,economica,delineador,Estimado por marca y formato,78,50,106,Entre $50 y $106 MXN
+catrice::gel-glide-long-lasting-lip-liner,Catrice,Gel Glide Long-lasting Lip Liner,economica,delineador,Observado en México,81,50,106,Entre $50 y $106 MXN
+catrice::plumping-lip-liner,Catrice,Plumping Lip Liner,economica,delineador,Observado en México,75,55,89,Entre $55 y $89 MXN
+catrice::better-than-fake-lips-volume-gloss,Catrice,Better Than Fake Lips Volume Gloss,economica,gloss,Estimado por marca y formato,124,70,124,Entre $70 y $124 MXN
+catrice::clean-id-hydra-lip-plumper,Catrice,Clean ID Hydra Lip Plumper,economica,gloss,Estimado por marca y formato,124,70,124,Entre $70 y $124 MXN
+catrice::diamond-glaze-lip-gloss,Catrice,Diamond Glaze Lip Gloss,economica,gloss,Precio oficial en EE. UU. convertido,124,100,124,Entre $100 y $124 MXN
+catrice::filler-supreme-lip-gloss,Catrice,Filler Supreme Lip Gloss,economica,gloss,Precio oficial en EE. UU. convertido,124,100,124,Entre $100 y $124 MXN
+catrice::glass-like-gloss-stick,Catrice,Glass Like Gloss Stick,economica,gloss,Estimado por marca y formato,124,70,124,Entre $70 y $124 MXN
+catrice::gloss-obsessed-lip-glaze,Catrice,Gloss Obsessed Lip Glaze,economica,gloss,Precio oficial en EE. UU. convertido,124,70,124,Entre $70 y $124 MXN
+catrice::lip-jam-hydrating-lip-gloss,Catrice,Lip Jam Hydrating Lip Gloss,economica,gloss,Estimado por marca y formato,124,70,124,Entre $70 y $124 MXN
+catrice::max-it-up-lip-booster-extreme-hot-plumper,Catrice,Max It Up Lip Booster Extreme Hot Plumper,economica,gloss,Estimado por marca y formato,124,70,124,Entre $70 y $124 MXN
+catrice::max-it-up-lip-booster-extreme-spicy-plumper,Catrice,Max It Up Lip Booster Extreme Spicy Plumper,economica,gloss,Estimado por marca y formato,124,70,124,Entre $70 y $124 MXN
+catrice::metaface-lip-glaze,Catrice,Metaface Lip Glaze,economica,gloss,Estimado por marca y formato,124,70,124,Entre $70 y $124 MXN
+catrice::shine-bomb-lip-lacquer-longlasting,Catrice,Shine Bomb Lip Lacquer Longlasting,economica,gloss,Estimado por marca y formato,124,70,124,Entre $70 y $124 MXN
+catrice::blur-real-lip-powder-cream,Catrice,Blur-real Lip Powder Cream,economica,liquido,Estimado por modelo,130,110,160,Entre $110 y $160 MXN
+catrice::endless-matte-liquid-lipstick,Catrice,Endless Matte Liquid Lipstick,economica,liquido,Estimado por modelo,130,110,160,Entre $110 y $160 MXN
+catrice::matt-pro-ink-non-transfer-liquid-lipstick,Catrice,Matt Pro Ink Non-transfer Liquid Lipstick,economica,liquido,Estimado por modelo,130,110,160,Entre $110 y $160 MXN
+catrice::glass-like-dewy-lip-tint,Catrice,Glass Like Dewy Lip Tint,economica,tinte,Estimado por modelo,120,100,150,Entre $100 y $150 MXN
+catrice::cosmetics-lip-cushion,Catrice,Lip Cushion,economica,tinte,Estimado por modelo,120,100,150,Entre $100 y $150 MXN
+catrice::ultimate-stay-waterfresh-lip-tint,Catrice,Ultimate Stay Waterfresh Lip Tint,economica,tinte,Estimado por modelo,120,100,150,Entre $100 y $150 MXN
+kiko::3d-hydra-lip-oil,KIKO Milano,3d Hydra Lip Oil,economica,aceite,Estimado por modelo,260,210,310,Entre $210 y $310 MXN
+kiko::coloured-balm,KIKO Milano,Coloured Balm,economica,balsamo,Estimado por modelo,220,180,270,Entre $180 y $270 MXN
+kiko::drop-lip-balm,KIKO Milano,Drop Lip Balm,economica,balsamo,Estimado por modelo,220,180,270,Entre $180 y $270 MXN
+kiko::bridgerton-ballroom-beauty-satin-shine-lipstick,KIKO Milano,Bridgerton Ballroom Beauty Satin Shine Lipstick,economica,barra,Estimado por marca y formato,142,115,142,Entre $115 y $142 MXN
+kiko::make-up-double-touch-lipstick,KIKO Milano,Double Touch Lipstick,economica,barra,Precio oficial en EE. UU. convertido,319,255,319,Entre $255 y $319 MXN
+kiko::gossamer-emotion-creamy-lipstick,KIKO Milano,Gossamer Emotion Creamy Lipstick,economica,barra,Estimado por marca y formato,142,115,142,Entre $115 y $142 MXN
+kiko::smart-fusion-lipstick,KIKO Milano,Smart Fusion Lipstick,economica,barra,Precio oficial en EE. UU. convertido,142,115,142,Entre $115 y $142 MXN
+kiko::ph-glow-lipstick,KIKO Milano,pH Glow Lipstick,economica,barra,Estimado por marca y formato,142,115,142,Entre $115 y $142 MXN
+kiko::ph-lip-enhancer,KIKO Milano,pH Lip Enhancer,economica,barra,Estimado por marca y formato,142,115,142,Entre $115 y $142 MXN
+kiko::creamy-colour-comfort-lip-liner,KIKO Milano,Creamy Colour Comfort Lip Liner,economica,delineador,Precio oficial en EE. UU. convertido,230,185,230,Entre $185 y $230 MXN
+kiko::smart-fusion-creamy-lip-crayon,KIKO Milano,Smart Fusion Creamy Lip Crayon,economica,delineador,Estimado por marca y formato,230,185,230,Entre $185 y $230 MXN
+kiko::smart-fusion-lip-pencil,KIKO Milano,Smart Fusion Lip Pencil,economica,delineador,Estimado por marca y formato,230,185,230,Entre $185 y $230 MXN
+kiko::smart-fusion-matte-lip-crayon,KIKO Milano,Smart Fusion Matte Lip Crayon,economica,delineador,Estimado por marca y formato,230,185,230,Entre $185 y $230 MXN
+kiko::street-heart-pump-up-the-volume-lip-liner,KIKO Milano,Street Heart Pump Up The Volume! Lip Liner,economica,delineador,Estimado por marca y formato,230,185,230,Entre $185 y $230 MXN
+kiko::3d-hydra-lipgloss,KIKO Milano,3d Hydra Lipgloss,economica,gloss,Precio oficial en EE. UU. convertido,248,200,248,Entre $200 y $248 MXN
+kiko::3d-hydra-xtreme-lipgloss,KIKO Milano,3d Hydra Xtreme Lipgloss,economica,gloss,Estimado por marca y formato,248,200,248,Entre $200 y $248 MXN
+kiko::street-heart-pump-up-the-volume-solid-lip-gloss-stick,KIKO Milano,Street Heart Pump Up The Volume! Solid Lip Gloss Stick,economica,gloss,Estimado por marca y formato,248,200,248,Entre $200 y $248 MXN
+loreal::hyaluron-lip-oil,L'Oreal,Hyaluron Lip Oil,economica,aceite,Estimado por modelo,290,240,350,Entre $240 y $350 MXN
+loreal::dermo-expertise-collagen-filler-lip-double-action,L'Oreal,Dermo-expertise Collagen Filler Lip Double Action,economica,balsamo,Estimado por modelo,250,210,310,Entre $210 y $310 MXN
+loreal::glow-paradise-lip-balm-in-gloss,L'Oreal,Glow Paradise Lip Balm-in-gloss,economica,balsamo,Estimado por modelo,250,210,310,Entre $210 y $310 MXN
+loreal::age-perfect-satin-lipstick-with-precious-oils,L'Oreal,Age Perfect Satin Lipstick With Precious Oils,economica,barra,Estimado por marca y formato,229,185,229,Entre $185 y $229 MXN
+loreal::color-riche-intense-volume-matte-slim-lipstick,L'Oreal,Color Riche Intense Volume Matte Slim Lipstick,economica,barra,Observado en México,229,185,229,Entre $185 y $229 MXN
+loreal::color-riche-les-nus-satin-lipstick,L'Oreal,Color Riche Les Nus Satin Lipstick,economica,barra,Estimado por marca y formato,229,185,229,Entre $185 y $229 MXN
+loreal::color-riche-matin-balm,L'Oreal,Color Riche Matin Balm,economica,barra,Estimado por marca y formato,229,185,229,Entre $185 y $229 MXN
+loreal::color-riche-satin-lipstick,L'Oreal,Color Riche Satin Lipstick,economica,barra,Estimado por marca y formato,229,185,229,Entre $185 y $229 MXN
+loreal::colour-riche-satin-lipstick,L'Oreal,Colour Riche Satin Lipstick,economica,barra,Estimado por marca y formato,229,185,229,Entre $185 y $229 MXN
+loreal::glow-paradise-balm-in-lipstick,L'Oreal,Glow Paradise Balm-in-lipstick,economica,barra,Estimado por marca y formato,229,185,229,Entre $185 y $229 MXN
+loreal::professionnel-lipstick-color-riche,L'Oreal,Lipstick Color Riche,economica,barra,Estimado por marca y formato,229,185,229,Entre $185 y $229 MXN
+loreal::blurfiller-blurring-lip-contour,L'Oreal,Blurfiller Blurring Lip Contour,economica,delineador,Estimado por modelo,200,170,250,Entre $170 y $250 MXN
+loreal::color-riche-le-lip-crayon,L'Oreal,Color Riche Le Lip Crayon,economica,delineador,Estimado por modelo,200,170,250,Entre $170 y $250 MXN
+loreal::color-riche-le-lip-liner,L'Oreal,Color Riche Le Lip Liner,economica,delineador,Estimado por modelo,200,170,250,Entre $170 y $250 MXN
+loreal::infallible-8hr-pro-gloss,L'Oreal,Infallible 8Hr Pro-Gloss,economica,gloss,Estimado por modelo,250,200,300,Entre $200 y $300 MXN
+loreal::matte-resistance-liquid-lipstick,L'Oreal,Matte Resistance Liquid Lipstick,economica,liquido,Observado en México,354,285,354,Entre $285 y $354 MXN
+loreal::paradise-hyaluron-tint-lip-stain-serum,L'Oreal,Paradise Hyaluron Tint Lip Stain Serum,economica,tinte,Estimado por modelo,280,230,350,Entre $230 y $350 MXN
+loreal::rouge-signature-matte-lip-stain,L'Oreal,Rouge Signature Matte Lip Stain,economica,tinte,Estimado por modelo,280,230,350,Entre $230 y $350 MXN
+maybelline::lifter-gel-oil-in-gel-lip-gloss-with-hyaluronic-acid,Maybelline,Lifter Gel Oil-in-gel Lip Gloss With Hyaluronic Acid,economica,aceite,Estimado por modelo,250,200,300,Entre $200 y $300 MXN
+maybelline::baby-lips,Maybelline,Baby Lips,economica,balsamo,Observado en México,145,100,145,Entre $100 y $145 MXN
+maybelline::baby-lips-dr-rescue-r-medicated-lip-balm,Maybelline,Baby Lips Dr Rescue Medicated Lip Balm,economica,balsamo,Observado en México,145,100,145,Entre $100 y $145 MXN
+maybelline::baby-lips-lip-balm-anti-oxidant-berry,Maybelline,Baby Lips Lip Balm,economica,balsamo,Observado en México,145,100,145,Entre $100 y $145 MXN
+maybelline::baby-lips-pink-lolita-lip-balm,Maybelline,Baby Lips Pink Lolita Lip Balm,economica,balsamo,Observado en México,145,100,145,Entre $100 y $145 MXN
+maybelline::lifter-glaze-oil-balm,Maybelline,Lifter Glaze Oil Balm,economica,balsamo,Estimado por marca y formato,145,100,145,Entre $100 y $145 MXN
+maybelline::lip-balm,Maybelline,Lip Balm,economica,balsamo,Estimado por marca y formato,145,100,145,Entre $100 y $145 MXN
+maybelline::baby-lips-bloom-color-changing-lip-balm-pink-bloom,Maybelline,Maybelline Baby Lips Bloom Color Changing Lip Balm Pink Bloom,economica,balsamo,Observado en México,145,100,145,Entre $100 y $145 MXN
+maybelline::color-sensational-lipstick,Maybelline,Color Sensational Lipstick,economica,barra,Estimado por modelo,230,190,280,Entre $190 y $280 MXN
+maybelline::color-sensational-ultimatte-neo-neutrals-slim-lipstick,Maybelline,Color Sensational Ultimatte Neo-Neutrals Slim Lipstick,economica,barra,Estimado por modelo,230,190,280,Entre $190 y $280 MXN
+maybelline::lipstick,Maybelline,Lipstick,economica,barra,Estimado por modelo,230,190,280,Entre $190 y $280 MXN
+maybelline::moisturizing-serum-lipstick,Maybelline,Moisturizing Serum Lipstick,economica,barra,Estimado por modelo,230,190,280,Entre $190 y $280 MXN
+maybelline::serum-lipstick,Maybelline,Serum Lipstick,economica,barra,Estimado por modelo,230,190,280,Entre $190 y $280 MXN
+maybelline::super-stay-ink-crayon,Maybelline,Super Stay Ink Crayon,economica,barra,Estimado por modelo,230,190,280,Entre $190 y $280 MXN
+maybelline::super-stay-r-ink-crayon-lipstick,Maybelline,Super Stay Ink Crayon Lipstick,economica,barra,Estimado por modelo,230,190,280,Entre $190 y $280 MXN
+maybelline::colorsensational-lip-liner,Maybelline,Colorsensational Lip Liner,economica,delineador,Estimado por modelo,170,140,210,Entre $140 y $210 MXN
+maybelline::lifter-liner-lip-liner-with-hyaluronic-acid,Maybelline,Lifter Liner Lip Liner With Hyaluronic Acid,economica,delineador,Estimado por modelo,170,140,210,Entre $140 y $210 MXN
+maybelline::super-stay-peel-off-lip-liner,Maybelline,Super Stay Peel Off Lip Liner,economica,delineador,Estimado por modelo,170,140,210,Entre $140 y $210 MXN
+maybelline::lifter-gloss,Maybelline,Lifter Gloss,economica,gloss,Observado en México,249,200,249,Entre $200 y $249 MXN
+maybelline::lifter-gloss-r-lip-gloss,Maybelline,Lifter Gloss Lip Gloss,economica,gloss,Observado en México,249,200,249,Entre $200 y $249 MXN
+maybelline::lifter-plump,Maybelline,Lifter Plump,economica,gloss,Estimado por marca y formato,249,200,249,Entre $200 y $249 MXN
+maybelline::vivid-hot-lacquer,Maybelline,Vivid Hot Lacquer,economica,gloss,Estimado por marca y formato,249,200,249,Entre $200 y $249 MXN
+maybelline::cloudtopia-cheek-and-lip-mousse,Maybelline,Cloudtopia Cheek And Lip Mousse,economica,liquido,Estimado por marca y formato,265,175,279,Entre $175 y $279 MXN
+maybelline::lippenstift-super-stay-vinly-ink,Maybelline,Lippenstift Super Stay Vinly Ink,economica,liquido,Observado en México,279,175,279,Entre $175 y $279 MXN
+maybelline::sensational-liquid-matte-lipstick,Maybelline,New York Sensational Liquid Matte Lipstick,economica,liquido,Estimado por marca y formato,265,175,279,Entre $175 y $279 MXN
+maybelline::super-stay,Maybelline,Super Stay 24 Color 2-Step Liquid Lipstick,economica,liquido,Estimado por marca y formato,265,175,279,Entre $175 y $279 MXN
+maybelline::super-stay-r-vinyl-ink-longwear-liquid-lipcolor,Maybelline,Super Stay Vinyl Ink Longwear Liquid Lipcolor,economica,liquido,Observado en México,279,175,279,Entre $175 y $279 MXN
+maybelline::superstay-matte-ink-liquid-lipstick,Maybelline,Superstay Matte Ink Liquid Lipstick,economica,liquido,Observado en México,260,175,261,Entre $175 y $261 MXN
+maybelline::sensational-cushion-matte-lip-tint,Maybelline,Sensational Cushion Matte Lip Tint,economica,tinte,Estimado por marca y formato,275,220,275,Entre $220 y $275 MXN
+maybelline::super-stay-teddy-tint,Maybelline,Super Stay Teddy Tint,economica,tinte,Observado en México,275,220,275,Entre $220 y $275 MXN
+milani::fruit-fetish-cherry-lime-lip-oil,Milani,Fruit Fetish Cherry Lime Lip Oil,economica,aceite,Estimado por modelo,350,290,430,Entre $290 y $430 MXN
+milani::fruit-fetish-lip-oil-raspberry-peach,Milani,Fruit Fetish Lip Oil Raspberry Peach,economica,aceite,Estimado por modelo,350,290,430,Entre $290 y $430 MXN
+milani::fruit-fetish-lip-oils-strawberry-melon,Milani,Fruit Fetish Lip Oils,economica,aceite,Estimado por modelo,350,290,430,Entre $290 y $430 MXN
+milani::fruit-fetish-passionfruit-coconut-lip-oil,Milani,Fruit Fetish Passionfruit Coconut Lip Oil,economica,aceite,Estimado por modelo,350,290,430,Entre $290 y $430 MXN
+milani::fruit-fetish-lip-balm,Milani,Fruit Fetish Lip Balm,economica,balsamo,Estimado por modelo,310,250,370,Entre $250 y $370 MXN
+milani::keep-it-full-glossy-plumping-balm,Milani,Keep It Full Glossy Plumping Balm,economica,balsamo,Estimado por modelo,310,250,370,Entre $250 y $370 MXN
+milani::keep-it-full-maxxx-balmshell-lip-plumping-balm-gloss,Milani,Keep It Full Maxxx Balmshell Lip Plumping Balm Gloss,economica,balsamo,Estimado por modelo,310,250,370,Entre $250 y $370 MXN
+milani::keep-it-full-maxxx-balmshell-plumping-lip-balm,Milani,Keep It Full Maxxx Balmshell Plumping Lip Balm,economica,balsamo,Estimado por modelo,310,250,370,Entre $250 y $370 MXN
+milani::keep-it-smooth-lip-treatment-luxe-lip-treatment,Milani,Keep It Smooth Lip Treatment Luxe Lip Treatment,economica,balsamo,Estimado por modelo,310,250,370,Entre $250 y $370 MXN
+milani::rose-transforming-lip-balm,Milani,Rose Transforming Lip Balm,economica,balsamo,Estimado por modelo,310,250,370,Entre $250 y $370 MXN
+milani::color-fetish-balm-lipstick,Milani,Color Fetish Balm Lipstick,economica,barra,Precio oficial en EE. UU. convertido,319,255,319,Entre $255 y $319 MXN
+milani::color-fetish-matte-lipstick,Milani,Color Fetish Matte Lipstick,economica,barra,Precio oficial en EE. UU. convertido,348,280,348,Entre $280 y $348 MXN
+milani::color-statement-lipstick,Milani,Color Statement Lipstick,economica,barra,Precio oficial en EE. UU. convertido,217,175,217,Entre $175 y $217 MXN
+milani::supercharged-cheek-and-lip-multistick,Milani,Supercharged Cheek And Lip Multistick,economica,barra,Observado en México,290,230,290,Entre $230 y $290 MXN
+milani::color-statement-lipliner,Milani,Color Statement Lipliner,economica,delineador,Estimado por marca y formato,290,230,290,Entre $230 y $290 MXN
+milani::keep-it-full-plumping-lip-liner,Milani,Keep It Full Plumping Lip Liner,economica,delineador,Estimado por marca y formato,290,230,290,Entre $230 y $290 MXN
+milani::stay-put-matte-lip-crayon,Milani,Stay Put Matte Lip Crayon,economica,delineador,Precio oficial en EE. UU. convertido,290,230,290,Entre $230 y $290 MXN
+milani::understatement-lipliner,Milani,Understatement Lipliner,economica,delineador,Estimado por marca y formato,290,230,290,Entre $230 y $290 MXN
+milani::keep-it-full-maxxx-lip-plumper,Milani,Keep It Full Maxxx Lip Plumper,economica,gloss,Estimado por marca y formato,290,230,290,Entre $230 y $290 MXN
+milani::keep-it-full-nourishing-lip-plumper,Milani,Keep It Full Nourishing Lip Plumper,economica,gloss,Estimado por marca y formato,290,230,290,Entre $230 y $290 MXN
+milani::amore-satin-matte-lip-cream,Milani,Amore Satin Matte Lip Cream,economica,liquido,Precio oficial en EE. UU. convertido,348,280,348,Entre $280 y $348 MXN
+milani::stay-put-liquid-lip-longwear-lipstick,Milani,Stay Put Liquid Lip Longwear Lipstick,economica,liquido,Precio oficial en EE. UU. convertido,392,315,392,Entre $315 y $392 MXN
+milani::stay-put-liquid-lip-shimmer-lipstick,Milani,Stay Put Liquid Lip Shimmer Lipstick,economica,liquido,Estimado por marca y formato,370,315,392,Entre $315 y $392 MXN
+milani::color-fetish-hydrating-lip-stain,Milani,Color Fetish Hydrating Lip Stain,economica,tinte,Precio oficial en EE. UU. convertido,435,350,435,Entre $350 y $435 MXN
+nyx::thisiseverything-lip-oil,NYX,#Thisiseverything Lip Oil,economica,aceite,Estimado por marca y formato,300,210,300,Entre $210 y $300 MXN
+nyx::fat-oil-lip-drip,NYX,Fat Oil Lip Drip,economica,aceite,Observado en México,300,210,300,Entre $210 y $300 MXN
+nyx::filler-instinct-plumping-lip-polish,NYX,Filler Instinct Plumping Lip Polish,economica,aceite,Estimado por marca y formato,300,210,300,Entre $210 y $300 MXN
+nyx::slip-tease-full-color-lip-oil,NYX,Slip Tease Full Color Lip Oil,economica,aceite,Estimado por marca y formato,300,210,300,Entre $210 y $300 MXN
+nyx::wednesday-color-shifting-lip-oil,NYX,Wednesday Color-shifting Lip Oil,economica,aceite,Estimado por marca y formato,300,210,300,Entre $210 y $300 MXN
+nyx::bare-with-me-hemp-lip-conditioner,NYX,Bare With Me Hemp Lip Conditioner,economica,balsamo,Estimado por marca y formato,230,160,230,Entre $160 y $230 MXN
+nyx::fat-oil-slick-click-lip-balm,NYX,Fat Oil Slick Click Lip Balm,economica,balsamo,Estimado por marca y formato,230,160,230,Entre $160 y $230 MXN
+nyx::smushy-matte-lip-balm,NYX,Smushy Matte Lip Balm,economica,balsamo,Observado en México,230,160,230,Entre $160 y $230 MXN
+nyx::candy-slick-glowy-lip-color,NYX,Candy Slick Glowy Lip Color,economica,barra,Estimado por modelo,270,220,330,Entre $220 y $330 MXN
+nyx::extra-creamy-round-lipstick,NYX,Extra Creamy Round Lipstick,economica,barra,Estimado por modelo,270,220,330,Entre $220 y $330 MXN
+nyx::fat-matte-smooth-color-lipstick,NYX,Fat Matte Smooth Color Lipstick,economica,barra,Estimado por modelo,270,220,330,Entre $220 y $330 MXN
+nyx::shout-loud-satin-lipstick,NYX,Shout Loud Satin Lipstick,economica,barra,Estimado por modelo,270,220,330,Entre $220 y $330 MXN
+nyx::suede-matte-lipstick,NYX,Suede Matte Lipstick,economica,barra,Estimado por modelo,270,220,330,Entre $220 y $330 MXN
+nyx::duck-plump-retractable-plumping-lip-liner,NYX,Duck Plump Retractable Plumping Lip Liner,economica,delineador,Observado en México,220,155,220,Entre $155 y $220 MXN
+nyx::line-loud-lip-liner,NYX,Line Loud Lip Liner,economica,delineador,Estimado por marca y formato,230,155,239,Entre $155 y $239 MXN
+nyx::line-loud-lip-pencil,NYX,Line Loud Lip Pencil,economica,delineador,Estimado por marca y formato,230,155,239,Entre $155 y $239 MXN
+nyx::lip-lingerie-lip-liner-stain,NYX,Lip Lingerie Lip Liner Stain,economica,delineador,Observado en México,239,190,239,Entre $190 y $239 MXN
+nyx::retractable-lip-liner-nude-pink,NYX,Retractable Lip Liner Nude Pink,economica,delineador,Estimado por marca y formato,230,155,239,Entre $155 y $239 MXN
+nyx::slim-lip-pencil,NYX,Slim Lip Pencil,economica,delineador,Estimado por marca y formato,230,155,239,Entre $155 y $239 MXN
+nyx::suede-matte-lip-liner,NYX,Suede Matte Lip Liner,economica,delineador,Estimado por marca y formato,230,155,239,Entre $155 y $239 MXN
+nyx::butter-gloss,NYX,Butter Gloss,economica,gloss,Observado en México,209,165,209,Entre $165 y $209 MXN
+nyx::butter-gloss-bling,NYX,Butter Gloss Bling,economica,gloss,Estimado por marca y formato,233,170,249,Entre $170 y $249 MXN
+nyx::butter-gloss-metallics-non-sticky-lip-gloss,NYX,Butter Gloss Metallics Non Sticky Lip Gloss,economica,gloss,Estimado por marca y formato,233,170,249,Entre $170 y $249 MXN
+nyx::butter-gloss-non-sticky-lip-gloss,NYX,Butter Gloss Non-sticky Lip Gloss,economica,gloss,Observado en México,209,165,209,Entre $165 y $209 MXN
+nyx::duck-plump-high-pigment-lip-plumping-gloss,NYX,Duck Plump High Pigment Lip Plumping Gloss,economica,gloss,Estimado por marca y formato,233,170,249,Entre $170 y $249 MXN
+nyx::jelly-job-lip-gloss,NYX,Jelly Job Lip Gloss,economica,gloss,Observado en México,249,200,249,Entre $200 y $249 MXN
+nyx::lip-i-v-hydrating-lip-gloss-stain,NYX,Lip I.v. Hydrating Lip Gloss Stain,economica,gloss,Observado en México,240,170,240,Entre $170 y $240 MXN
+nyx::lip-lingerie-gloss-clear,NYX,Lip Lingerie Gloss,economica,gloss,Estimado por marca y formato,233,170,249,Entre $170 y $249 MXN
+nyx::slip-tease-lip-lacquer,NYX,Slip Tease Lip Lacquer,economica,gloss,Estimado por marca y formato,233,170,249,Entre $170 y $249 MXN
+nyx::this-is-milky-gloss-milkshakes,NYX,This Is Milky Gloss Milkshakes,economica,gloss,Estimado por marca y formato,233,170,249,Entre $170 y $249 MXN
+nyx::this-is-milky-lip-gloss,NYX,This Is Milky Lip Gloss,economica,gloss,Estimado por marca y formato,233,170,249,Entre $170 y $249 MXN
+nyx::lip-lingerie-xxl-matte-liquid-lipstick,NYX,Lip Lingerie XXL Matte Liquid Lipstick,economica,liquido,Observado en México,295,240,350,Entre $240 y $350 MXN
+nyx::liquid-suede-cream-lipstick,NYX,Liquid Suede Cream Lipstick,economica,liquido,Estimado por marca y formato,323,240,380,Entre $240 y $380 MXN
+nyx::matte-lip-cream,NYX,Matte Lip Cream,economica,liquido,Estimado por marca y formato,323,240,380,Entre $240 y $380 MXN
+nyx::shine-loud-pro-pigment-lip-shine,NYX,Shine Loud Pro Pigment Lip Shine,economica,liquido,Observado en México,380,305,380,Entre $305 y $380 MXN
+nyx::smooth-whip-matte-lip-cream,NYX,Smooth Whip Matte Lip Cream,economica,liquido,Estimado por marca y formato,323,240,380,Entre $240 y $380 MXN
+revlon::kiss-glow-lip-oil-tm,Revlon,Kiss Glow Lip Oil,economica,aceite,Estimado por marca y formato,239,190,239,Entre $190 y $239 MXN
+revlon::super-lustrous-glimmer-lip-oil,Revlon,Super Lustrous Glimmer Lip Oil,economica,aceite,Observado en México,239,190,239,Entre $190 y $239 MXN
+revlon::kiss-baume,Revlon,Kiss Baume,economica,balsamo,Estimado por modelo,230,190,280,Entre $190 y $280 MXN
+revlon::kiss-lip-balm,Revlon,Kiss Lip Balm,economica,balsamo,Estimado por modelo,230,190,280,Entre $190 y $280 MXN
+revlon::moon-drops-moisturizing-lip-conditioner,Revlon,Moon Drops Moisturizing Lip Conditioner,economica,balsamo,Estimado por modelo,230,190,280,Entre $190 y $280 MXN
+revlon::colorstay-suede-ink-tm-lipstick,Revlon,ColorStay Suede Ink Lipstick,economica,barra,Estimado por marca y formato,238,150,289,Entre $150 y $289 MXN
+revlon::colorburst-lip-butter,Revlon,Colorburst Lip Butter,economica,barra,Estimado por marca y formato,238,150,289,Entre $150 y $289 MXN
+revlon::colorstay-overtime-lip-color,Revlon,Colorstay Overtime Lip Color,economica,barra,Observado en México,289,230,289,Entre $230 y $289 MXN
+revlon::colorstay-satin-ink-lipstick,Revlon,Colorstay Satin Ink Lipstick,economica,barra,Estimado por marca y formato,238,150,289,Entre $150 y $289 MXN
+revlon::super-lustrous-tm-lipstick,Revlon,Super Lustrous Lipstick,economica,barra,Estimado por marca y formato,238,150,289,Entre $150 y $289 MXN
+revlon::super-lustrous-lipstick,Revlon,Super Lustrous Lipstick,economica,barra,Estimado por marca y formato,238,150,289,Entre $150 y $289 MXN
+revlon::super-lustrous-luscious-mattes-lipstick,Revlon,Super Lustrous Luscious Mattes Lipstick,economica,barra,Estimado por marca y formato,238,150,289,Entre $150 y $289 MXN
+revlon::super-lustrous-ultra-lipstick,Revlon,Super Lustrous Ultra Lipstick,economica,barra,Estimado por marca y formato,238,150,289,Entre $150 y $289 MXN
+revlon::colorstay-lip-liner,Revlon,Colorstay Lip Liner,economica,delineador,Estimado por modelo,190,150,230,Entre $150 y $230 MXN
+revlon::super-lustrous-glimmer-gloss,Revlon,Super Lustrous Glimmer Gloss,economica,gloss,Observado en México,239,190,239,Entre $190 y $239 MXN
+revlon::super-lustrous-lipgloss,Revlon,Super Lustrous Lipgloss,economica,gloss,Estimado por marca y formato,252,210,265,Entre $210 y $265 MXN
+revlon::super-lustrous-the-lip-gloss-tm,Revlon,Super Lustrous The Lip Gloss,economica,gloss,Estimado por marca y formato,252,210,265,Entre $210 y $265 MXN
+revlon::colorstay-limitless-matte-liquid-lipstick,Revlon,Colorstay Limitless Matte Liquid Lipstick,economica,liquido,Observado en México,275,220,275,Entre $220 y $275 MXN
+revlon::kiss-plumping-lip-creme,Revlon,Kiss Plumping Lip Crème,economica,liquido,Estimado por marca y formato,275,220,275,Entre $220 y $275 MXN
+revlon::colorstay-moisture-stain,Revlon,Colorstay Moisture Stain,economica,tinte,Estimado por modelo,260,210,320,Entre $210 y $320 MXN
+revlon::jelly-tint-lipcolor,Revlon,Jelly Tint Lipcolor,economica,tinte,Estimado por modelo,260,210,320,Entre $210 y $320 MXN
+revolution::glaze-lip-oil-getaway-terracotta,Revolution,Glaze Lip Oil Getaway Terracotta,economica,aceite,Estimado por modelo,200,160,240,Entre $160 y $240 MXN
+revolution::glaze-lip-oil-glam-pink,Revolution,Glaze Lip Oil Glam Pink,economica,aceite,Estimado por modelo,200,160,240,Entre $160 y $240 MXN
+revolution::pro-goddess-glow-lip-oil-soleil,Revolution,Goddess Glow Lip Oil Soleil,economica,aceite,Estimado por modelo,200,160,240,Entre $160 y $240 MXN
+revolution::i-heart-revolution-tropical-lip-oil-kiwi,Revolution,I Heart Revolution Tropical Lip Oil Kiwi,economica,aceite,Estimado por modelo,200,160,240,Entre $160 y $240 MXN
+revolution::lip-oil-2,Revolution,Lip Oil,economica,aceite,Estimado por modelo,200,160,240,Entre $160 y $240 MXN
+revolution::poolside-aqua-drip-cooling-lip-oil,Revolution,Poolside Aqua Drip Cooling Lip Oil,economica,aceite,Estimado por modelo,200,160,240,Entre $160 y $240 MXN
+revolution::pout-lip-oil,Revolution,Pout Lip Oil,economica,aceite,Estimado por modelo,200,160,240,Entre $160 y $240 MXN
+revolution::relove-euphoric-roll-baby-lip-oil,Revolution,Relove Euphoric Roll Baby Lip Oil,economica,aceite,Estimado por modelo,200,160,240,Entre $160 y $240 MXN
+revolution::pro-rescue-lip-oil,Revolution,Rescue Lip Oil,economica,aceite,Estimado por modelo,200,160,240,Entre $160 y $240 MXN
+revolution::relove-roll-baby-lip-oil-papaya,Revolution,Roll Baby Lip Oil Papaya,economica,aceite,Estimado por modelo,200,160,240,Entre $160 y $240 MXN
+revolution::aura-lip-balm,Revolution,Aura Lip Balm,economica,balsamo,Estimado por modelo,170,140,210,Entre $140 y $210 MXN
+revolution::candy-haze-lip-balm,Revolution,Candy Haze Lip Balm,economica,balsamo,Estimado por modelo,170,140,210,Entre $140 y $210 MXN
+revolution::gym-lip-resist-hydrating-lip-balm-pink,Revolution,Gym Lip Resist Hydrating Lip Balm Pink,economica,balsamo,Estimado por modelo,170,140,210,Entre $140 y $210 MXN
+revolution::hylaboost-hyaluronic-lip-fix,Revolution,Hylaboost Hyaluronic Lip Fix,economica,balsamo,Estimado por modelo,170,140,210,Entre $140 y $210 MXN
+revolution::juicy-peptide-lip-balm,Revolution,Juicy Peptide Lip Balm,economica,balsamo,Estimado por modelo,170,140,210,Entre $140 y $210 MXN
+revolution::lip-protector-spf,Revolution,Lip Protector SPF,economica,balsamo,Estimado por modelo,170,140,210,Entre $140 y $210 MXN
+revolution::peptide-pout-plumping-lip-balm,Revolution,Peptide Pout Plumping Lip Balm,economica,balsamo,Estimado por modelo,170,140,210,Entre $140 y $210 MXN
+revolution::planet-revolution-coconut-lip-butter,Revolution,Planet Revolution Coconut Lip Butter,economica,balsamo,Estimado por modelo,170,140,210,Entre $140 y $210 MXN
+revolution::pout-balm,Revolution,Pout Balm,economica,balsamo,Estimado por modelo,170,140,210,Entre $140 y $210 MXN
+revolution::pro-protect-conditioning-lip-balm-spf,Revolution,Protect Conditioning Lip Balm SPF,economica,balsamo,Estimado por modelo,170,140,210,Entre $140 y $210 MXN
+revolution::rehab-overnight-lip-serum,Revolution,Rehab Overnight Lip Serum,economica,balsamo,Estimado por modelo,170,140,210,Entre $140 y $210 MXN
+revolution::relove-glam-balm-lip-balm,Revolution,Relove Glam Balm Lip Balm,economica,balsamo,Estimado por modelo,170,140,210,Entre $140 y $210 MXN
+revolution::pro-renew-lip-conditioner,Revolution,Renew Lip Conditioner,economica,balsamo,Estimado por modelo,170,140,210,Entre $140 y $210 MXN
+revolution::so-balm-lip-balm-mango,Revolution,So Balm Lip Balm Mango,economica,balsamo,Estimado por modelo,170,140,210,Entre $140 y $210 MXN
+revolution::pro-x-amanda-holden-best-kept-secret-lip-and-fine-line-filler,Revolution,Best Kept Secret Lip And Fine Line Filler,economica,barra,Estimado por modelo,180,150,220,Entre $150 y $220 MXN
+revolution::blur-lip-shaper,Revolution,Blur Lip Shaper,economica,barra,Estimado por modelo,180,150,220,Entre $150 y $220 MXN
+revolution::lip-allure-soft-satin-lipstick,Revolution,Lip Allure Soft Satin Lipstick,economica,barra,Estimado por modelo,180,150,220,Entre $150 y $220 MXN
+revolution::pro-new-neutral-satin-matte-lipstick,Revolution,New Neutral Satin Matte Lipstick,economica,barra,Estimado por modelo,180,150,220,Entre $150 y $220 MXN
+revolution::relove-baby-lipstick,Revolution,Relove Baby Lipstick,economica,barra,Estimado por modelo,180,150,220,Entre $150 y $220 MXN
+revolution::pro-new-neutral-lip-liner,Revolution,New Neutral Lip Liner,economica,delineador,Estimado por modelo,140,120,170,Entre $120 y $170 MXN
+revolution::pout-bomb-plumping-lip-liner,Revolution,Pout Bomb Plumping Lip Liner,economica,delineador,Estimado por modelo,140,120,170,Entre $120 y $170 MXN
+revolution::satin-kiss-lipliner,Revolution,Satin Kiss Lipliner,economica,delineador,Estimado por modelo,140,120,170,Entre $120 y $170 MXN
+revolution::ceramide-lip-swirl-pure-gloss-clear,Revolution,Ceramide Lip Swirl Pure Gloss Clear,economica,gloss,Estimado por marca y formato,175,125,208,Entre $125 y $208 MXN
+revolution::hot-shot-plumping-lip-gloss,Revolution,Hot Shot Plumping Lip Gloss,economica,gloss,Estimado por marca y formato,175,125,208,Entre $125 y $208 MXN
+revolution::pro-hydra-bright-plumping-lip-gloss-clear,Revolution,Hydra Bright Plumping Lip Gloss Clear,economica,gloss,Estimado por marca y formato,175,125,208,Entre $125 y $208 MXN
+revolution::i-heart-revolution-shimmer-spritz-lip-gloss-cherry-cola,Revolution,I Heart Revolution Shimmer Spritz Lip Gloss Cherry Cola,economica,gloss,Estimado por marca y formato,175,125,208,Entre $125 y $208 MXN
+revolution::i-heart-revolution-shimmer-spritz-lip-gloss-grapefruit,Revolution,I Heart Revolution Shimmer Spritz Lip Gloss Grapefruit,economica,gloss,Estimado por marca y formato,175,125,208,Entre $125 y $208 MXN
+revolution::i-heart-revolution-shimmer-spritz-lip-gloss-lemonade,Revolution,I Heart Revolution Shimmer Spritz Lip Gloss Lemonade,economica,gloss,Estimado por marca y formato,175,125,208,Entre $125 y $208 MXN
+revolution::juicy-pout-lip-gloss-grapefruit,Revolution,Juicy Pout Lip Gloss,economica,gloss,Observado en México,208,125,208,Entre $125 y $208 MXN
+revolution::lip-shake-lip-gloss,Revolution,Lip Shake Lip Gloss,economica,gloss,Estimado por marca y formato,175,125,208,Entre $125 y $208 MXN
+revolution::peptide-glaze-tinted-lip-serum,Revolution,Peptide Glaze Tinted Lip Serum,economica,gloss,Estimado por marca y formato,175,125,208,Entre $125 y $208 MXN
+revolution::pout-bomb-plumping-gloss,Revolution,Pout Bomb Plumping Gloss,economica,gloss,Precio oficial en EE. UU. convertido,142,115,142,Entre $115 y $142 MXN
+revolution::pout-bomb-shimmer-gloss,Revolution,Pout Bomb Shimmer Gloss,economica,gloss,Estimado por marca y formato,175,125,208,Entre $125 y $208 MXN
+revolution::pout-lip-gloss-stick,Revolution,Pout Lip Gloss Stick,economica,gloss,Estimado por marca y formato,175,125,208,Entre $125 y $208 MXN
+revolution::rehab-lip-plump-maximiser-conditioning-gloss,Revolution,Rehab Lip Plump Maximiser Conditioning Gloss,economica,gloss,Estimado por marca y formato,175,125,208,Entre $125 y $208 MXN
+revolution::rehab-plump-me-up-lip-serum-orange-glaze,Revolution,Rehab Plump Me Up Lip Serum Orange Glaze,economica,gloss,Estimado por marca y formato,175,125,208,Entre $125 y $208 MXN
+revolution::relove-baby-gloss-lip-gloss,Revolution,Relove Baby Gloss Lip Gloss,economica,gloss,Estimado por marca y formato,175,125,208,Entre $125 y $208 MXN
+revolution::shimmer-bomb-lip-gloss-2,Revolution,Shimmer Bomb Lip Gloss,economica,gloss,Estimado por marca y formato,175,125,208,Entre $125 y $208 MXN
+revolution::shimmer-lip-gloss,Revolution,Shimmer Lip Gloss,economica,gloss,Estimado por marca y formato,175,125,208,Entre $125 y $208 MXN
+revolution::air-blur-matte-liquid-lipstick,Revolution,Air Blur Matte Liquid Lipstick,economica,liquido,Estimado por modelo,210,170,260,Entre $170 y $260 MXN
+revolution::london-i-heart-revolution-metallic-unicorn-lips-whimsical,Revolution,I Heart Revolution Metallic Unicorn Lips Whimsical,economica,liquido,Estimado por modelo,210,170,260,Entre $170 y $260 MXN
+revolution::plex-bond-barrier-protecting-lip-cream,Revolution,Plex Bond Barrier Protecting Lip Cream,economica,liquido,Estimado por modelo,210,170,260,Entre $170 y $260 MXN
+revolution::bouncy-pudding-lip-cheek-tint,Revolution,Bouncy Pudding Lip & Cheek Tint,economica,tinte,Estimado por modelo,200,160,240,Entre $160 y $240 MXN
+revolution::hyaluronic-acid-hydrating-lip-patches,Revolution,Hyaluronic Acid Hydrating Lip Patches,economica,tinte,Estimado por modelo,200,160,240,Entre $160 y $240 MXN
+revolution::inflatable-glow-lip-cheek-tint-tropical-creamsicle,Revolution,Inflatable Glow Lip & Cheek Tint Tropical Creamsicle,economica,tinte,Estimado por modelo,200,160,240,Entre $160 y $240 MXN
+revolution::kiss-drip-water-lip-tint,Revolution,Kiss Drip Water Lip Tint,economica,tinte,Estimado por modelo,200,160,240,Entre $160 y $240 MXN
+revolution::lasting-kiss-liquid-matte-stain,Revolution,Lasting Kiss Liquid Matte Stain,economica,tinte,Estimado por modelo,200,160,240,Entre $160 y $240 MXN
+revolution::lip-nourishing-tint-with-cannabis-sativa-energy,Revolution,Lip Nourishing Tint With Cannabis Sativa,economica,tinte,Estimado por modelo,200,160,240,Entre $160 y $240 MXN
+revolution::lip-shift-peel-off-lip-stain,Revolution,Lip Shift Peel Off Lip Stain,economica,tinte,Estimado por modelo,200,160,240,Entre $160 y $240 MXN
+revolution::relove-by-revolution-baby-tint-lip-cheek-tint,Revolution,Relove By Revolution Baby Tint Lip & Cheek Tint,economica,tinte,Estimado por modelo,200,160,240,Entre $160 y $240 MXN
+wet-n-wild::chameleon-chrome-lip-foil-halos-way,Wet n Wild,Chameleon Chrome Lip Foil,economica,aceite,Estimado por modelo,150,130,190,Entre $130 y $190 MXN
+wet-n-wild::lip-oil,Wet n Wild,Lip Oil,economica,aceite,Estimado por modelo,150,130,190,Entre $130 y $190 MXN
+wet-n-wild::lip-oil-injector-plumping-lip-oil-shimmer-me-baby,Wet n Wild,Lip Oil Injector Plumping Lip Oil,economica,aceite,Estimado por modelo,150,130,190,Entre $130 y $190 MXN
+wet-n-wild::spongebob-squarepants-bikini-bottom-cooling-lip-oil,Wet n Wild,Spongebob Squarepants Bikini Bottom Cooling Lip Oil,economica,aceite,Estimado por modelo,150,130,190,Entre $130 y $190 MXN
+wet-n-wild::lip-treatment,Wet n Wild,Lip Treatment,economica,balsamo,Estimado por modelo,130,110,160,Entre $110 y $160 MXN
+wet-n-wild::megaslicks-balm-stain,Wet n Wild,Megaslicks Balm Stain,economica,balsamo,Estimado por modelo,130,110,160,Entre $110 y $160 MXN
+wet-n-wild::perfect-pout-lip-treatment,Wet n Wild,Perfect Pout Lip Treatment,economica,balsamo,Estimado por modelo,130,110,160,Entre $110 y $160 MXN
+wet-n-wild::mega-glo-lip-cheek-color,Wet n Wild,Mega Glo Lip & Cheek Color,economica,barra,Estimado por marca y formato,135,100,172,Entre $100 y $172 MXN
+wet-n-wild::mega-inky-lip-color-bare-intentions,Wet n Wild,Mega Inky Lip Color,economica,barra,Observado en México,225,180,225,Entre $180 y $225 MXN
+wet-n-wild::mega-last-lip-color,Wet n Wild,Mega Last Lip Color,economica,barra,Observado en México,98,80,98,Entre $80 y $98 MXN
+wet-n-wild::mega-last-matte-lip-color,Wet n Wild,Mega Last Matte Lip Color,economica,barra,Estimado por marca y formato,135,100,172,Entre $100 y $172 MXN
+wet-n-wild::megalast-high-shine-lip-color,Wet n Wild,Megalast High Shine Lip Color,economica,barra,Estimado por marca y formato,135,100,172,Entre $100 y $172 MXN
+wet-n-wild::perfect-pout-lip-color,Wet n Wild,Perfect Pout Lip Color,economica,barra,Estimado por marca y formato,135,100,172,Entre $100 y $172 MXN
+wet-n-wild::rose-comforting-lip-color,Wet n Wild,Rose Comforting Lip Color,economica,barra,Estimado por marca y formato,135,100,172,Entre $100 y $172 MXN
+wet-n-wild::silk-finish-lipstick,Wet n Wild,Silk Finish Lipstick,economica,barra,Estimado por marca y formato,135,100,172,Entre $100 y $172 MXN
+wet-n-wild::soft-blur-matte-lipstick,Wet n Wild,Soft Blur Matte Lipstick,economica,barra,Observado en México,172,105,172,Entre $105 y $172 MXN
+wet-n-wild::color-icon-lipliner,Wet n Wild,Color Icon Lipliner,economica,delineador,Estimado por modelo,110,90,130,Entre $90 y $130 MXN
+wet-n-wild::perfect-pout-gel-lip-liner,Wet n Wild,Perfect Pout Gel Lip Liner,economica,delineador,Estimado por modelo,110,90,130,Entre $90 y $130 MXN
+wet-n-wild::perfect-pout-lip-liner-stain-spilled-wine,Wet n Wild,Perfect Pout Lip Liner Stain,economica,delineador,Estimado por modelo,110,90,130,Entre $90 y $130 MXN
+wet-n-wild::buzz-buzz-hunny-lip-gloss-bee-nice,Wet n Wild,Buzz Buzz Hunny Lip Gloss,economica,gloss,Estimado por modelo,130,110,160,Entre $110 y $160 MXN
+wet-n-wild::megalast-lock-n-shine-lip-color-gloss,Wet n Wild,Megalast Lock ‘n’ Shine Lip Color + Gloss,economica,gloss,Estimado por modelo,130,110,160,Entre $110 y $160 MXN
+wet-n-wild::megaslicks-lip-gloss,Wet n Wild,Megaslicks Lip Gloss,economica,gloss,Estimado por modelo,130,110,160,Entre $110 y $160 MXN
+wet-n-wild::cloud-pout-marshmallow-lip-mousse,Wet n Wild,Cloud Pout Marshmallow Lip Mousse,economica,liquido,Estimado por marca y formato,182,140,225,Entre $140 y $225 MXN
+wet-n-wild::mega-glitter-shimmer-liquid-lipstick-hear-me-out,Wet n Wild,Mega Glitter Shimmer Liquid Lipstick,economica,liquido,Estimado por marca y formato,182,140,225,Entre $140 y $225 MXN
+wet-n-wild::megalast-liquid-catsuit-high-shine-lipstick,Wet n Wild,Megalast Liquid Catsuit High-shine Lipstick,economica,liquido,Observado en México,139,110,139,Entre $110 y $139 MXN
+elf::5-mg-cbd-lip-oil,e.l.f.,5 Mg Cbd Lip Oil,economica,aceite,Estimado por marca y formato,265,215,270,Entre $215 y $270 MXN
+elf::gloss-mode-treatment-oil,e.l.f.,Gloss Mode Treatment Oil,economica,aceite,Estimado por marca y formato,265,215,270,Entre $215 y $270 MXN
+elf::glow-reviver-lip-oil,e.l.f.,Glow Reviver Lip Oil,economica,aceite,Observado en México,270,215,270,Entre $215 y $270 MXN
+elf::glow-reviver-lip-oil-glimmer,e.l.f.,Glow Reviver Lip Oil Glimmer,economica,aceite,Observado en México,260,210,260,Entre $210 y $260 MXN
+elf::glow-reviver-plumping-lip-oil,e.l.f.,Glow Reviver Plumping Lip Oil,economica,aceite,Estimado por marca y formato,265,215,270,Entre $215 y $270 MXN
+elf::jelly-pop-glow-reviver-lip-oil,e.l.f.,Jelly Pop Glow Reviver Lip Oil,economica,aceite,Estimado por marca y formato,265,215,270,Entre $215 y $270 MXN
+elf::glow-reviver-melting-lip-balm,e.l.f.,Glow Reviver Melting Lip Balm,economica,balsamo,Estimado por marca y formato,145,115,145,Entre $115 y $145 MXN
+elf::lip-cushion-nourishing-balm,e.l.f.,Lip Cushion Nourishing Balm,economica,balsamo,Estimado por marca y formato,145,115,145,Entre $115 y $145 MXN
+elf::ride-or-die-lip-balm,e.l.f.,Ride Or Die Lip Balm,economica,balsamo,Estimado por marca y formato,145,115,145,Entre $115 y $145 MXN
+elf::squeeze-me-lip-balm,e.l.f.,Squeeze Me Lip Balm,economica,balsamo,Observado en México,145,115,145,Entre $115 y $145 MXN
+elf::thirst-burst-lip-treatment,e.l.f.,Thirst Burst Lip Treatment,economica,balsamo,Estimado por marca y formato,145,115,145,Entre $115 y $145 MXN
+elf::hydrating-core-lip-shine,e.l.f.,Hydrating Core Lip Shine,economica,barra,Estimado por modelo,190,160,230,Entre $160 y $230 MXN
+elf::o-face-satin-lipstick,e.l.f.,O Face Satin Lipstick,economica,barra,Estimado por modelo,190,160,230,Entre $160 y $230 MXN
+elf::sheer-slick-lipstick,e.l.f.,Sheer Slick Lipstick,economica,barra,Estimado por modelo,190,160,230,Entre $160 y $230 MXN
+elf::srsly-satin-lipstick-cider,e.l.f.,Srsly Satin Lipstick,economica,barra,Estimado por modelo,190,160,230,Entre $160 y $230 MXN
+elf::velvet-matte-lipstick,e.l.f.,Velvet Matte Lipstick,economica,barra,Estimado por modelo,190,160,230,Entre $160 y $230 MXN
+elf::cream-glide-lip-liner,e.l.f.,Cream Glide Lip Liner,economica,delineador,Estimado por modelo,150,120,180,Entre $120 y $180 MXN
+elf::love-triangle-lip-filler-liner,e.l.f.,Love Triangle Lip Filler Liner,economica,delineador,Estimado por modelo,150,120,180,Entre $120 y $180 MXN
+elf::pout-clout,e.l.f.,Pout Clout,economica,delineador,Estimado por modelo,150,120,180,Entre $120 y $180 MXN
+elf::pout-clout-lip-plumping-pen-shimmer,e.l.f.,Pout Clout Lip Plumping Pen Shimmer,economica,delineador,Estimado por modelo,150,120,180,Entre $120 y $180 MXN
+elf::jelly-pop-juicy-gloss,e.l.f.,Jelly Pop Juicy Gloss,economica,gloss,Estimado por marca y formato,173,115,230,Entre $115 y $230 MXN
+elf::lip-lacquer,e.l.f.,Lip Lacquer,economica,gloss,Observado en México,115,90,115,Entre $90 y $115 MXN
+elf::lip-plumping-gloss,e.l.f.,Lip Plumping Gloss,economica,gloss,Observado en México,230,185,230,Entre $185 y $230 MXN
+elf::sun-boss-gloss-spf,e.l.f.,Sun Boss Gloss SPF,economica,gloss,Estimado por marca y formato,173,115,230,Entre $115 y $230 MXN
+elf::liquid-matte-lipstick,e.l.f.,Liquid Matte Lipstick,economica,liquido,Estimado por modelo,220,180,270,Entre $180 y $270 MXN
+elf::so-blurreal-lip-cheek-whip,e.l.f.,So Blurreal Lip & Cheek Whip,economica,liquido,Estimado por modelo,220,180,270,Entre $180 y $270 MXN
+elf::glossy-lip-stain,e.l.f.,Glossy Lip Stain,economica,tinte,Observado en México,195,155,195,Entre $155 y $195 MXN
+elf::lip-stain,e.l.f.,Lip Stain,economica,tinte,Estimado por marca y formato,195,155,195,Entre $155 y $195 MXN
+elf::main-stain-lip-marker,e.l.f.,Main Stain Lip Marker,economica,tinte,Estimado por marca y formato,195,155,195,Entre $155 y $195 MXN
+essence::algae-lip-oil,essence,Algae Lip Oil,economica,aceite,Estimado por marca y formato,90,70,90,Entre $70 y $90 MXN
+essence::cranberry-lip-oil,essence,Cranberry Lip Oil,economica,aceite,Estimado por marca y formato,90,70,90,Entre $70 y $90 MXN
+essence::electric-glow-colour-changing-lip-cheek-oil,essence,Electric Glow Colour Changing Lip & Cheek Oil,economica,aceite,Estimado por marca y formato,90,70,90,Entre $70 y $90 MXN
+essence::ginseng-lip-oil,essence,Ginseng Lip Oil,economica,aceite,Estimado por marca y formato,90,70,90,Entre $70 y $90 MXN
+essence::golden-days-ahead-lip-oil,essence,Golden Days Ahead Lip Oil,economica,aceite,Estimado por marca y formato,90,70,90,Entre $70 y $90 MXN
+essence::hydra-kiss-lip-oil,essence,Hydra Kiss Lip Oil,economica,aceite,Observado en México,90,70,90,Entre $70 y $90 MXN
+essence::juicy-bomb-lip-oil,essence,Juicy Bomb Lip Oil,economica,aceite,Estimado por marca y formato,90,70,90,Entre $70 y $90 MXN
+essence::juicy-glow-juicy-bomb-lip-oil,essence,Juicy Glow Juicy Bomb Lip Oil,economica,aceite,Estimado por marca y formato,90,70,90,Entre $70 y $90 MXN
+essence::so-mesmerizing-shimmer-lip-oil,essence,So Mesmerizing Shimmer Lip Oil,economica,aceite,Estimado por marca y formato,90,70,90,Entre $70 y $90 MXN
+essence::ticket-for-a-smile-lip-oil-roll-on,essence,Ticket For... A Smile Lip Oil Roll-On,economica,aceite,Estimado por marca y formato,90,70,90,Entre $70 y $90 MXN
+essence::what-the-fake-glass-shine-plumping-lip-filler,essence,What The Fake! Glass Shine Plumping Lip Filler,economica,aceite,Estimado por marca y formato,90,70,90,Entre $70 y $90 MXN
+essence::aloha-babes-pout-lip-balm,essence,"Aloha, Babes! Pout Lip Balm",economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::baby-got-glaze-balm-stick,essence,Baby Got Glaze Balm Stick,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::caring-tint-lip-balm,essence,Caring Tint Lip Balm,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::catching-clouds-swirl-lip-balm,essence,Catching Clouds Swirl Lip Balm,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::cute-as-shell-lip-balm,essence,Cute As Shell Lip Balm,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::extreme-care-hydrating-glossy-lip-balm,essence,Extreme Care Hydrating Glossy Lip Balm,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::extreme-care-hydrating-glossy-lipbalm,essence,Extreme Care Hydrating Glossy Lipbalm,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::fruit-kiss-caring-lip-balm-in,essence,Fruit Kiss Caring Lip Balm In,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::glowcerin-glycerin-lip-treatment,essence,Glowcerin Glycerin Lip Treatment,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::heart-core-fruity-lip-balm,essence,Heart Core Fruity Lip Balm,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::juicy-berry-tinted-lip-cheek-balm,essence,Juicy Berry Tinted Lip & Cheek Balm,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::juicy-bomb-glossy-butter-balm,essence,Juicy Bomb Glossy Butter Balm,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::juicy-melon-tinted-lip-cheek-balm,essence,Juicy Melon Tinted Lip & Cheek Balm,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::lip-care-booster-caring-lip-peeling,essence,Lip Care Booster Caring Lip Peeling,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::lip-care-booster-lip-butter,essence,Lip Care Booster Lip Butter,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::lip-care-booster-lip-peeling,essence,Lip Care Booster Lip Peeling,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::lip-care-booster-lip-serum,essence,Lip Care Booster Lip Serum,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::lip-care-hydra-oil-core-balm,essence,Lip Care Hydra Oil Core Balm,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::peppermint-glow-lip-balm,essence,Peppermint Glow Lip Balm,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::pink-is-the-new-black-colour-changing-lip-cheek-balm,essence,Pink Is The New Black Colour-Changing Lip & Cheek Balm,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::the-super-balm-glossy-lip-treatment,essence,The Super Balm Glossy Lip Treatment,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::the-super-peptide-glossy-lip-butter,essence,The Super Peptide Glossy Lip Butter,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::the-super-peptide-glossy-lip-treatment,essence,The Super Peptide Glossy Lip Treatment,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::vintage-beach-coconut-lip-conditioner,essence,Vintage Beach Coconut Lip Conditioner,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::volumizing-collagen-vegan-lip-balm,essence,Volumizing Collagen Vegan Lip Balm,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::what-the-fake-extreme-plumping-lip-filler-icy-effect,essence,What The Fake! Extreme Plumping Lip Filler Icy Effect,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::what-the-fake-extreme-plumping-lip-filler-with-chili-extract,essence,What The Fake! Extreme Plumping Lip Filler With Chili Extract,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::what-the-fake-oh-my-plump-plumping-lip-filler,essence,What The Fake! Oh My Plump! Plumping Lip Filler.,economica,balsamo,Observado en México,100,80,100,Entre $80 y $100 MXN
+essence::what-the-fake-pepper-me-up-extreme-plumping-lip-filler,essence,What The Fake! Pepper Me Up! Extreme Plumping Lip Filler,economica,balsamo,Estimado por marca y formato,100,80,100,Entre $80 y $100 MXN
+essence::bloomin-bright-lip-glow-stick,essence,Bloomin' Bright Lip Glow Stick,economica,barra,Estimado por marca y formato,110,90,110,Entre $90 y $110 MXN
+essence::colour-up-shine-on-lipstick,essence,Colour Up Shine On Lipstick,economica,barra,Estimado por marca y formato,110,90,110,Entre $90 y $110 MXN
+essence::cool-collagen-plumping-lipstick,essence,Cool Collagen Plumping Lipstick,economica,barra,Estimado por marca y formato,110,90,110,Entre $90 y $110 MXN
+essence::everlasting-blooms-lip-cheek-stick,essence,Everlasting Blooms Lip & Cheek Stick,economica,barra,Estimado por marca y formato,110,90,110,Entre $90 y $110 MXN
+essence::glossy-glaze-high-shine-lipstick,essence,Glossy Glaze High Shine Lipstick,economica,barra,Estimado por marca y formato,110,90,110,Entre $90 y $110 MXN
+essence::hello-kitty-caring-sheer-lipstick,essence,Hello Kitty Caring Sheer Lipstick,economica,barra,Estimado por marca y formato,110,90,110,Entre $90 y $110 MXN
+essence::hydra-matte-lipstick,essence,Hydra Matte Lipstick,economica,barra,Estimado por marca y formato,110,90,110,Entre $90 y $110 MXN
+essence::hydrating-nude-lipstick,essence,Hydrating Nude Lipstick,economica,barra,Estimado por marca y formato,110,90,110,Entre $90 y $110 MXN
+essence::kiss-on-cheeks-ph-reacting-lip-cheek-stick,essence,Kiss On Cheeks pH-Reacting Lip & Cheek Stick,economica,barra,Estimado por marca y formato,110,90,110,Entre $90 y $110 MXN
+essence::meta-glow-colour-changing-lipstick,essence,Meta Glow Colour Changing Lipstick,economica,barra,Estimado por marca y formato,110,90,110,Entre $90 y $110 MXN
+essence::pink-is-the-new-black-colour-changing-lip-glow,essence,Pink Is The New Black Colour-Changing Lip Glow,economica,barra,Estimado por marca y formato,110,90,110,Entre $90 y $110 MXN
+essence::satin-glow-shiny-lipstick,essence,Satin Glow Shiny Lipstick,economica,barra,Estimado por marca y formato,110,90,110,Entre $90 y $110 MXN
+essence::so-mesmerizing-colour-changing-lipstick,essence,So Mesmerizing Colour-Changing Lipstick,economica,barra,Estimado por marca y formato,110,90,110,Entre $90 y $110 MXN
+essence::the-slim-stick-lipstick,essence,The Slim Stick Lipstick,economica,barra,Observado en México,110,90,110,Entre $90 y $110 MXN
+essence::this-is-nude-lipstick,essence,This Is Nude Lipstick,economica,barra,Estimado por marca y formato,110,90,110,Entre $90 y $110 MXN
+essence::8h-matte-comfort-lipliner,essence,8h Matte Comfort Lipliner,economica,delineador,Observado en México,50,40,50,Entre $40 y $50 MXN
+essence::line-n-stain-tattoo-lip-liner,essence,Line N' Stain! Tattoo Lip Liner,economica,delineador,Estimado por marca y formato,50,40,50,Entre $40 y $50 MXN
+essence::poutline-soft-glide-lip-pencil,essence,Poutline Soft Glide Lip Pencil,economica,delineador,Estimado por marca y formato,50,40,50,Entre $40 y $50 MXN
+essence::soft-precise-lip-pencil,essence,Soft & Precise Lip Pencil,economica,delineador,Estimado por marca y formato,50,40,50,Entre $40 y $50 MXN
+essence::soft-contouring-lip-liner,essence,Soft Contouring Lip Liner,economica,delineador,Estimado por marca y formato,50,40,50,Entre $40 y $50 MXN
+essence::birthday-bomb-shiny-lipgloss,essence,Birthday Bomb Shiny Lipgloss,economica,gloss,Observado en México,32,25,32,Entre $25 y $32 MXN
+essence::bloom-baby-bloom-nectar-lipgloss,essence,"Bloom Baby, Bloom! Nectar Lipgloss",economica,gloss,Estimado por marca y formato,64,25,96,Entre $25 y $96 MXN
+essence::chilly-vanilly-lip-glaze,essence,Chilly Vanilly Lip Glaze,economica,gloss,Estimado por marca y formato,64,25,96,Entre $25 y $96 MXN
+essence::extreme-shine-lipgloss,essence,Extreme Shine Lipgloss,economica,gloss,Observado en México,96,75,96,Entre $75 y $96 MXN
+essence::extreme-shine-volume-lipgloss,essence,Extreme Shine Volume Lipgloss,economica,gloss,Observado en México,69,55,69,Entre $55 y $69 MXN
+essence::holo-bomb-shiny-lipgloss,essence,Holo Bomb Shiny Lipgloss,economica,gloss,Estimado por marca y formato,64,25,96,Entre $25 y $96 MXN
+essence::juicy-bomb-shiny-lipgloss,essence,Juicy Bomb Shiny Lipgloss,economica,gloss,Estimado por marca y formato,64,25,96,Entre $25 y $96 MXN
+essence::meta-glow-multi-reflective-lipgloss,essence,Meta Glow Multi-Reflective Lipgloss,economica,gloss,Estimado por marca y formato,64,25,96,Entre $25 y $96 MXN
+essence::pearly-potion-multi-reflective-lipgloss,essence,Pearly Potion Multi-Reflective Lipgloss,economica,gloss,Estimado por marca y formato,64,25,96,Entre $25 y $96 MXN
+essence::plumping-nudes-lipgloss,essence,Plumping Nudes Lipgloss,economica,gloss,Estimado por marca y formato,64,25,96,Entre $25 y $96 MXN
+essence::shine-shine-shine-lipgloss,essence,Shine Shine Shine Lipgloss,economica,gloss,Estimado por marca y formato,64,25,96,Entre $25 y $96 MXN
+essence::so-cherry-happy-peptide-lipgloss,essence,So Cherry Happy Peptide Lipgloss,economica,gloss,Estimado por marca y formato,64,25,96,Entre $25 y $96 MXN
+essence::8h-matte-liquid-lipstick,essence,8h Matte Liquid Lipstick,economica,liquido,Estimado por modelo,90,70,100,Entre $70 y $100 MXN
+essence::melting-for-ice-cream-ph-reacting-lip-cream,essence,Melting For Ice Cream pH-Reacting Lip Cream,economica,liquido,Estimado por modelo,90,70,100,Entre $70 y $100 MXN
+essence::cute-as-shell-ph-reacting-lip-tint,essence,Cute As Shell pH-Reacting Lip Tint,economica,tinte,Estimado por marca y formato,80,65,80,Entre $65 y $80 MXN
+essence::juicy-glow-hydrating-papaya-lip-patch,essence,Juicy Glow Hydrating Papaya Lip Patch,economica,tinte,Estimado por marca y formato,80,65,80,Entre $65 y $80 MXN
+essence::pink-is-the-new-black-colour-changing-lip-tint,essence,Pink Is The New Black Colour-Changing Lip Tint,economica,tinte,Estimado por marca y formato,80,65,80,Entre $65 y $80 MXN
+essence::tinted-kiss-hydrating-lip-tint,essence,Tinted Kiss Hydrating Lip Tint,economica,tinte,Estimado por marca y formato,80,65,80,Entre $65 y $80 MXN
+essence::what-a-tint-lip-cheek-tint,essence,What A Tint! Lip & Cheek Tint,economica,tinte,Observado en México,80,65,80,Entre $65 y $80 MXN

@@ -1,15 +1,15 @@
 # Same Same
 
-Validador de equivalencias de formulación entre productos labiales de gama alta y alternativas de gama económica, construido sobre listas de ingredientes en nomenclatura INCI.
+Validador de equivalencias de formulación entre productos labiales de gama alta y alternativas de gama económica, construido sobre listas de ingredientes en nomenclatura INCI, con precio de referencia en pesos mexicanos.
 
-El sistema responde una sola pregunta: si la base química de una alternativa accesible sostiene la equivalencia que se le atribuye frente a un producto de gama alta. No evalúa tono, precio ni desempeño en uso.
+El sistema responde una sola pregunta: si la base química de una alternativa accesible sostiene la equivalencia que se le atribuye frente a un producto de gama alta. A esa respuesta le añade cuánto se ahorra. No evalúa tono ni desempeño en uso.
 
 ## Arquitectura
 
 ```
 api/
   index.py                 servicio HTTP en FastAPI
-  motor.py                 motor de recuperación, escala y explicación
+  motor.py                 motor de recuperación, escala, precio y explicación
   datos/                   artefactos exportados por la etapa de modelación
 public/
   index.html               documento único de la aplicación
@@ -22,6 +22,8 @@ validacion/
 vercel.json                enrutamiento entre el front estático y la función
 requirements.txt           dependencias de ejecución
 ```
+
+Los nueve artefactos que consume el motor se generan en la sección 17 del cuaderno de modelación y se copian a `api/datos/`: `catalogo_app.csv`, `tonos_app.csv`, `ingredientes_app.csv`, `perfil_app.csv`, `estadisticos_consulta_app.csv`, `pares_documentados.csv`, `precios_linea_app.csv`, `configuracion_app.json` e `indice_matriz_app.json`. La matriz completa, `matriz_similitud_app.csv`, se usa solo como referencia de validación y no la necesita el servicio.
 
 El front es estático y consume la API por HTTP. No hay proceso de compilación ni dependencias de JavaScript.
 
@@ -61,31 +63,53 @@ El umbral de separación del nivel más alto es el percentil diez de la separaci
 
 La etiqueta se calcula siempre contra el universo completo de 498 fórmulas económicas. Los filtros de consumo responsable y de formato restringen qué alternativas se muestran, nunca el juicio sobre cada una de ellas.
 
+**Empates.** Numerosas candidatas comparten exactamente el mismo vehículo y, por lo tanto, la misma similitud. El coseno de dos vectores idénticos puede diferir en el último dígito según el procesador y el orden de las sumas, con diferencias del orden de 1e-16. Como el percentil depende del rango y los umbrales de la escala se aplican sobre el percentil, un empate roto por ese ruido cambiaría el nivel de una candidata. El rango se calcula con una tolerancia de `1e-12`, declarada en `configuracion_app.json` bajo `modelo.tolerancia_empate`, cuatro órdenes de magnitud por encima del ruido numérico y por debajo de cualquier diferencia real entre candidatas.
+
+## Precio de referencia
+
+Las listas de ingredientes no contienen precios y ningún minorista mexicano publica el surtido completo de las veinte marcas del catálogo. Los precios se levantaron a mano en una sola fecha, en minoristas con operación en México, y las líneas no observadas se completan con una jerarquía de estimación que usa siempre la información más cercana disponible:
+
+| Nivel de evidencia | Criterio | Líneas |
+|---|---|---|
+| Observado en México | La línea tiene al menos una observación en tienda mexicana | 111 |
+| Precio oficial en EE. UU. convertido | Marca con poca distribución local, convertida al tipo de cambio FIX | 22 |
+| Estimado por marca y formato | Otros productos de la misma marca en el mismo formato | 263 |
+| Estimado por modelo | Predicción del modelo log lineal de marca y formato | 152 |
+
+Cada línea comercial expone un precio de referencia, que es el promedio de los precios regulares de su fuente y el valor con el que se calcula el ahorro, y un rango que va del precio más bajo accesible de forma habitual, con la promoción típica de su gama, al precio regular más alto observado. El nivel de evidencia se declara de forma explícita en la interfaz y en la API.
+
+La estimación es multivariada, no una media global: el precio de un labial depende conjuntamente de quién lo fabrica y de qué tipo de producto es.
+
 ## Interfaz
 
 | Sección | Contenido |
 |---|---|
-| Explorar | Catálogo de 548 líneas comerciales con búsqueda, filtros por gama, formato, efecto declarado, crueldad animal y aptitud vegana |
-| Validar | Comprobación de un par concreto, con veredicto, descomposición del puntaje y las equivalencias documentadas por la comunidad |
-| Marcas | Las veinte marcas del catálogo con su gama, clasificación ética y proporción de fórmulas veganas |
-| Cómo funciona | Metodología, escala de etiquetas, desempeño declarado y límites del sistema |
+| Explorar | Catálogo de 548 líneas comerciales con búsqueda, ordenamiento por precio y filtros por gama, rango de precio, formato, efecto declarado, crueldad animal y aptitud vegana |
+| Comparar | Comprobación de un par concreto, con veredicto en lenguaje llano, precios de ambos, ahorro, ingredientes compartidos y diferencias entre las dos fórmulas |
+| Marcas | Las veinte marcas del catálogo con su gama, precio típico, clasificación ética y proporción de fórmulas veganas |
+| Cómo funciona | Metodología, escala de etiquetas, origen de los precios, desempeño declarado, conjunto de referencia y límites del sistema |
 | Sobre Same Same | Origen, alcance y honestidad del proyecto |
 
 La capa de presentación agrupa las 645 fórmulas en 548 líneas comerciales. El modelo conserva las fórmulas intactas, porque dos acabados de un mismo producto comercial son dos vehículos químicos distintos.
+
+**Dos niveles de lectura.** El flujo principal está escrito para quien compra un labial y no usa vocabulario estadístico. El percentil, la separación robusta, la posición dentro del catálogo, la descomposición del puntaje y el perfil funcional completo viven dentro de bloques plegables rotulados como detalle técnico, presentes en cada alternativa y en la comparación. Nada se elimina: se separa por perfil de lectura.
+
+**Estado de los filtros.** Los filtros del catálogo viven en el fragmento de la dirección, no en memoria. Cambiar de sección los limpia por omisión, y una dirección con filtros puede compartirse tal cual.
 
 ## API
 
 | Ruta | Descripción |
 |---|---|
 | `GET /api/salud` | Estado del servicio y tamaño del catálogo |
-| `GET /api/meta` | Configuración del modelo, umbrales de la escala, arquetipos y desempeño declarado |
-| `GET /api/marcas` | Marcas con gama, clasificación ética y proporción vegana |
-| `GET /api/lineas` | Catálogo paginado con filtros y búsqueda |
-| `GET /api/producto/{id_formula}` | Ficha completa de una fórmula |
-| `GET /api/alternativas/{id_formula}` | Alternativas económicas ordenadas por proximidad |
-| `GET /api/validar` | Veredicto sobre un par de fórmulas |
-| `GET /api/comparar/{id_lujo}/{id_dupe}` | Descomposición del puntaje entre dos fórmulas |
-| `GET /api/pares-documentados` | Equivalencias documentadas por la comunidad con su veredicto |
+| `GET /api/meta` | Configuración del modelo, umbrales de la escala, arquetipos, cobertura de precios y desempeño declarado |
+| `GET /api/marcas` | Marcas con gama, precio típico, clasificación ética y proporción vegana |
+| `GET /api/lineas` | Catálogo paginado con filtros, rango de precio, ordenamiento y búsqueda |
+| `GET /api/producto/{id_formula}` | Ficha completa de una fórmula, con precio y perfil de construcción |
+| `GET /api/alternativas/{id_formula}` | Alternativas económicas ordenadas por proximidad, con precio y ahorro |
+| `GET /api/validar` | Veredicto sobre un par de fórmulas, con ahorro y explicación |
+| `GET /api/comparar/{id_lujo}/{id_dupe}` | Descomposición del puntaje y diferencias entre dos fórmulas |
+| `GET /api/precio/{id_formula}` | Precio de referencia y nivel de evidencia de una fórmula |
+| `GET /api/pares-documentados` | Equivalencias documentadas por la comunidad con su veredicto y su ahorro |
 
 La documentación interactiva se sirve en `/api/docs`.
 
@@ -98,17 +122,19 @@ uvicorn api.index:app --reload
 
 La aplicación queda disponible en `http://127.0.0.1:8000`. En ejecución local el servicio monta además el directorio estático, de modo que un solo proceso sirve la interfaz y la API.
 
+Las dependencias requieren una versión de Python para la que exista rueda precompilada de numpy. Si la instalación intenta compilar numpy desde el código fuente, la causa es que el intérprete es más reciente que la rueda disponible; basta con ejecutar los comandos con un intérprete 3.11, 3.12 o 3.13.
+
 ## Control de integridad
 
 ```bash
 python validacion/validar_sistema.py
 ```
 
-El control verifica la integridad del catálogo, la reconstrucción de la matriz de similitud, la conservación del ordenamiento frente al ranking exportado, la reproducción exacta de los conteos de la capa de etiquetas, la consistencia de la descomposición del puntaje y la robustez de la recuperación bajo todas las combinaciones de filtros. Devuelve código de salida distinto de cero ante cualquier discrepancia.
+El control verifica en nueve grupos la integridad del catálogo, la reconstrucción de la matriz de similitud, la conservación del ordenamiento frente al ranking exportado, la reproducción exacta de los conteos de la capa de etiquetas, la estabilidad de los niveles ante una perturbación del orden de la precisión de máquina, la cobertura y coherencia de los precios, la consistencia de la descomposición del puntaje, la robustez de la recuperación bajo todas las combinaciones de filtros y la resolución de los pares documentados. Devuelve código de salida distinto de cero ante cualquier discrepancia.
 
 ## Despliegue
 
-El repositorio está preparado para Vercel. La configuración enruta `/api/*` hacia la función de Python e implanta el resto sobre el directorio estático.
+El repositorio está preparado para Vercel. La configuración enruta `/api/*` hacia la función de Python y sirve el resto desde el directorio estático. Al importar el repositorio, el preajuste de framework debe quedar en `Other`, para que Vercel respete el `vercel.json` del propio repositorio.
 
 ```bash
 vercel
@@ -118,12 +144,20 @@ vercel --prod
 ## Fuentes
 
 - **Listas de ingredientes.** Repositorio INKEEDecoder, consultado de forma estructurada y a bajo volumen tras verificar su archivo de exclusión para robots.
+- **Precios.** Consulta manual en minoristas con operación en México en una sola fecha, más los precios de lista oficiales de las marcas con poca distribución local, convertidos al tipo de cambio FIX publicado en el Diario Oficial de la Federación.
 - **Crueldad animal.** Contraste manual entre PETA y Cruelty-Free Kitty, con una categoría explícita para los casos en que ambas fuentes discrepan.
 - **Equivalencias de referencia.** Pares documentados en comunidades de Reddit, TikTok y Pinterest, enlazados al catálogo mediante coincidencia difusa con revisión manual de los casos ambiguos.
 
 ## Límites conocidos
 
-- La fuente de ingredientes es una base de formulación y no un sitio de comercio, de modo que no publica precios. El precio queda fuera del alcance.
+- Los precios corresponden a una sola fecha de consulta, no se normalizan por contenido neto y, en dos de cada cinco líneas, provienen de una estimación y no de una observación en tienda.
 - La unidad de análisis es la base química sin colorantes, de manera que la equivalencia de tono debe confirmarse por separado.
 - La regulación no obliga a declarar concentraciones, sólo el orden decreciente, de modo que el desempeño en uso no es deducible de la lista.
+- El acabado y el efecto provienen de la nomenclatura comercial del producto: 358 de las 645 fórmulas no declaran acabado y 445 no declaran efecto. La ficha los complementa con atributos derivados de la propia fórmula.
 - El catálogo cubre exclusivamente productos labiales de veinte marcas con presencia en el mercado mexicano.
+
+## Siguientes pasos
+
+- Vista de analista sobre los mismos artefactos: cobertura por marca y arquetipo, brechas de precio entre fórmulas equivalentes y consultas sin alternativa de nivel alto, que señalan oportunidades de surtido.
+- Asistente conversacional con llamadas a funciones, que interprete la consulta en lenguaje natural y llame a las funciones de recomendación y comparación como herramientas. El veredicto seguiría emitiéndolo el sistema calibrado.
+- Recolección periódica de precios en minoristas mexicanos, con registro del contenido neto para comparar precio por gramo o mililitro.
