@@ -217,6 +217,7 @@
         ${distintivoGama(linea.gama)}
         <span class="distintivo distintivo--neutro">${esc(nombreFormato(linea))}</span>
         ${tonos}
+        ${distintivoEtico(linea)}
       </span>
     </a>`;
   }
@@ -255,6 +256,45 @@
   // --------------------------------------------------------------------
   // Explorar
   // --------------------------------------------------------------------
+  function seleccionarAtajos(pares, cuantos = 4) {
+    const utiles = pares
+      .filter((p) => p.ahorro && p.ahorro.favorable)
+      .sort((a, b) => b.ahorro.pesos - a.ahorro.pesos);
+    const elegidos = [];
+    [1, 2, 3].forEach((nivel) => {
+      const mejor = utiles.find((p) => p.nivel === nivel);
+      if (mejor) elegidos.push(mejor);
+    });
+    utiles.forEach((p) => {
+      if (elegidos.length < cuantos && !elegidos.includes(p)) elegidos.push(p);
+    });
+    return elegidos.slice(0, cuantos).sort((a, b) => a.nivel - b.nivel);
+  }
+
+  async function cargarAtajos() {
+    const caja = document.getElementById("atajos");
+    if (!caja) return;
+    try {
+      const datos = await api("/pares-documentados");
+      const elegidos = seleccionarAtajos(datos.resultados);
+      if (!elegidos.length) return;
+      caja.innerHTML = elegidos
+        .map(
+          (p) => `<a class="atajo atajo--n${p.nivel}" href="#/comparar?lujo=${esc(p.lujo.id_formula)}&dupe=${esc(p.dupe.id_formula)}">
+            <span class="atajo__veredicto"><span class="punto-nivel n${p.nivel}"></span>${esc(NIVEL_LLANO[p.nivel])}</span>
+            <span class="atajo__lujo">${esc(p.lujo.marca)} ${esc(p.lujo.nombre.replace(p.lujo.marca, "").trim() || p.lujo.nombre)}</span>
+            <span class="atajo__frente">frente a</span>
+            <span class="atajo__dupe">${esc(p.dupe.marca)} ${esc(p.dupe.nombre.replace(p.dupe.marca, "").trim() || p.dupe.nombre)}</span>
+            <span class="atajo__ahorro">${pesos(p.ahorro.pesos)} de diferencia, ${porcentaje(p.ahorro.proporcion)} menos</span>
+          </a>`
+        )
+        .join("");
+      document.getElementById("bloque-atajos").hidden = false;
+    } catch (e) {
+      caja.innerHTML = "";
+    }
+  }
+
   async function vistaExplorar(parametros) {
     pintar(cargando());
     const meta = await asegurarMeta();
@@ -298,18 +338,29 @@
 
     pintar(`
       <section class="portada">
-        <h1 class="portada__titulo">Descubre. Compara. <span class="acento">Ahorra.</span></h1>
-        <p class="portada__bajada">Same Same abre la lista de ingredientes de ${c.formulas} labiales, te dice si una opción económica se parece de verdad por dentro al producto de gama alta que tienes en la mira, y cuánto te ahorras en pesos.</p>
-        <div class="buscador">
-          <svg class="buscador__lupa" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
-          <input type="search" id="campo-busqueda" placeholder="Busca una marca o un producto" value="${esc(filtros.q)}" aria-label="Buscar una marca o un producto">
+        <div class="portada__texto">
+          <h1 class="portada__titulo">Descubre. Compara. <span class="acento">Ahorra.</span></h1>
+          <p class="portada__bajada">Same Same abre la lista de ingredientes de ${c.formulas} labiales, te dice si una opción económica se parece de verdad por dentro al producto de gama alta que tienes en la mira, y cuánto te ahorras en pesos.</p>
+          <div class="buscador">
+            <svg class="buscador__lupa" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+            <input type="search" id="campo-busqueda" placeholder="Busca una marca o un producto" value="${esc(filtros.q)}" aria-label="Buscar una marca o un producto">
+          </div>
+          <div class="portada__cifras">
+            <div><span class="cifra__valor">${c.formulas}</span><span class="cifra__texto">fórmulas analizadas</span></div>
+            <div><span class="cifra__valor">${c.marcas}</span><span class="cifra__texto">marcas</span></div>
+            <div><span class="cifra__valor">${meta.precios.lineas_con_precio}</span><span class="cifra__texto">precios de referencia</span></div>
+            <div><span class="cifra__valor">${c.ingredientes_distintos}</span><span class="cifra__texto">ingredientes comparados</span></div>
+          </div>
         </div>
-        <div class="portada__cifras">
-          <div><span class="cifra__valor">${c.formulas}</span><span class="cifra__texto">fórmulas analizadas</span></div>
-          <div><span class="cifra__valor">${c.marcas}</span><span class="cifra__texto">marcas</span></div>
-          <div><span class="cifra__valor">${meta.precios.lineas_con_precio}</span><span class="cifra__texto">precios de referencia</span></div>
-          <div><span class="cifra__valor">${c.ingredientes_distintos}</span><span class="cifra__texto">ingredientes comparados</span></div>
+        <img class="portada__vizcacha" src="img/vizcacha.png" alt="Vizcacha, mascota de Same Same" width="520" height="485" decoding="async">
+      </section>
+
+      <section class="bloque" id="bloque-atajos" hidden>
+        <div class="bloque__encabezado">
+          <h2>Empieza por una equivalencia conocida</h2>
+          <p class="bloque__nota">Afirmaciones que circulan en redes, ya contrastadas contra la fórmula.</p>
         </div>
+        <div class="atajos" id="atajos"></div>
       </section>
 
       <section class="bloque">
@@ -324,8 +375,12 @@
       </section>
 
       <div class="disposicion">
-        <aside class="panel panel--pegado">
-          <p class="panel__titulo">Filtros <button class="panel__limpiar" type="button" id="limpiar-filtros">Limpiar</button></p>
+        <aside class="panel panel--pegado" id="panel-filtros">
+          <p class="panel__titulo">
+            <button class="panel__plegar" type="button" id="plegar-filtros" aria-expanded="false" aria-controls="cuerpo-filtros">Filtros <span class="panel__cuenta" id="cuenta-filtros"></span></button>
+            <button class="panel__limpiar" type="button" id="limpiar-filtros">Limpiar</button>
+          </p>
+          <div class="panel__cuerpo" id="cuerpo-filtros">
           <div class="grupo-filtro">
             <p class="grupo-filtro__titulo">Gama</p>
             <label class="opcion"><input type="radio" name="gama" value=""${filtros.gama === "" ? " checked" : ""}><span>Todas</span></label>
@@ -340,7 +395,7 @@
             ).join("")}
           </div>
           <div class="grupo-filtro">
-            <p class="grupo-filtro__titulo">Consumo responsable</p>
+            <p class="grupo-filtro__titulo">Crueldad animal y origen vegano</p>
             <label class="opcion"><input type="checkbox" id="filtro-etico"${filtros.etico ? " checked" : ""}><span>Solo libres de crueldad animal</span></label>
             <label class="opcion"><input type="checkbox" id="filtro-vegano"${filtros.vegano ? " checked" : ""}><span>Solo veganas por fórmula</span></label>
           </div>
@@ -359,6 +414,7 @@
                 )
                 .join("")}
             </select>
+          </div>
           </div>
         </aside>
 
@@ -382,10 +438,21 @@
       </div>
     `);
 
+    function actualizarCuentaFiltros() {
+      const caja = document.getElementById("cuenta-filtros");
+      if (!caja) return;
+      const activos =
+        ["gama", "precio", "marca", "efecto"].filter((clave) => filtros[clave] !== "").length +
+        (filtros.etico ? 1 : 0) +
+        (filtros.vegano ? 1 : 0);
+      caja.textContent = activos === 0 ? "" : activos === 1 ? "1 activo" : `${activos} activos`;
+    }
+
     async function cargarResultados() {
       const caja = document.getElementById("resultados");
       if (!caja) return;
       caja.innerHTML = cargando();
+      actualizarCuentaFiltros();
       sincronizarDireccion();
       try {
         const datos = await api("/lineas", {
@@ -492,6 +559,15 @@
     );
     document.getElementById("limpiar-filtros").addEventListener("click", () => {
       window.location.hash = "#/explorar";
+    });
+
+    cargarAtajos();
+
+    const panel = document.getElementById("panel-filtros");
+    const plegar = document.getElementById("plegar-filtros");
+    plegar.addEventListener("click", () => {
+      const abierto = panel.classList.toggle("panel--abierto");
+      plegar.setAttribute("aria-expanded", String(abierto));
     });
 
     cargarResultados();
@@ -701,8 +777,8 @@
           <div class="tarjeta__pie" style="margin-bottom:6px">
             ${distintivoNivel(r.nivel)}
             <span class="distintivo distintivo--neutro">${esc(nombreFormato(r))}</span>
-            ${r.es_libre_crueldad ? '<span class="distintivo distintivo--etico">Libre de crueldad animal</span>' : ""}
-            ${r.aptitud_vegana === "vegana por fórmula" ? '<span class="distintivo distintivo--vegano">Vegana por fórmula</span>' : ""}
+            ${distintivoEtico(r)}
+            ${distintivoVegano(r)}
           </div>
           <div class="resultado__precio">
             ${r.precio ? `<span class="precio-tarjeta"><span class="precio-tarjeta__rango">${esc(r.precio.texto.replace(" MXN", ""))}</span><span class="precio-tarjeta__nota">MXN</span></span>` : ""}
@@ -808,7 +884,7 @@
   }
 
   function chipsIngredientes(lista, vacio, total) {
-    if (!lista.length) return `<p class="bloque__nota">${esc(vacio)}</p>`;
+    if (!lista.length) return vacio ? `<p class="bloque__nota">${esc(vacio)}</p>` : "";
     const restantes = (total ?? lista.length) - lista.length;
     const resto =
       restantes > 0
@@ -835,24 +911,25 @@
       const x = v.explicacion;
       const a = v.ahorro;
 
+      const centroPrecio = a
+        ? `<p class="precio-hero__leyenda">${a.favorable ? "Ahorras" : "Diferencia"}</p>
+           <p class="precio-hero__ahorro ${a.favorable ? "" : "precio-hero__ahorro--adverso"}">${pesos(Math.abs(a.pesos))}</p>
+           <p class="precio-hero__leyenda">${a.favorable ? porcentaje(a.proporcion) + " menos" : "más caro"}</p>`
+        : `<p class="precio-hero__leyenda">Comparación</p>
+           <p class="precio-hero__ahorro">Sin dato</p>
+           <p class="precio-hero__leyenda">precio no comparable</p>`;
+
       const precioHero = `<div class="precio-hero">
-        <div class="precio-hero__lado">
+        <div class="precio-hero__lado precio-hero__lado--alta">
           <p class="precio-hero__marca">${esc(v.lujo.marca)}</p>
           <p class="precio-hero__cifra">${v.lujo.precio ? pesos(v.lujo.precio.referencia) : "Sin dato"}</p>
-          <p class="precio-hero__rango">${v.lujo.precio ? esc(v.lujo.precio.texto.replace(" MXN", "")) : ""}</p>
+          <p class="precio-hero__rango">${v.lujo.precio ? esc(v.lujo.precio.texto.replace(" MXN", "")) : "&nbsp;"}</p>
         </div>
-        <div class="precio-hero__centro">
-          ${
-            a
-              ? `<p class="precio-hero__ahorro ${a.favorable ? "" : "precio-hero__ahorro--adverso"}">${a.favorable ? pesos(a.pesos) : pesos(Math.abs(a.pesos))}</p>
-                 <p class="precio-hero__leyenda">${a.favorable ? "de ahorro, " + porcentaje(a.proporcion) + " menos" : "más caro que el de gama alta"}</p>`
-              : '<p class="precio-hero__leyenda">Sin precio comparable</p>'
-          }
-        </div>
-        <div class="precio-hero__lado">
+        <div class="precio-hero__centro">${centroPrecio}</div>
+        <div class="precio-hero__lado precio-hero__lado--dupe">
           <p class="precio-hero__marca">${esc(v.dupe.marca)}</p>
           <p class="precio-hero__cifra">${v.dupe.precio ? pesos(v.dupe.precio.referencia) : "Sin dato"}</p>
-          <p class="precio-hero__rango">${v.dupe.precio ? esc(v.dupe.precio.texto.replace(" MXN", "")) : ""}</p>
+          <p class="precio-hero__rango">${v.dupe.precio ? esc(v.dupe.precio.texto.replace(" MXN", "")) : "&nbsp;"}</p>
         </div>
       </div>`;
 
@@ -887,7 +964,7 @@
         <section class="bloque">
           <div class="bloque__encabezado"><h2>En qué se parecen</h2></div>
           <p>${esc(llano(x.resumen))}</p>
-          ${chipsIngredientes(x.ingredientes_compartidos, "No comparten ningún ingrediente de los que el sistema compara.", x.n_ingredientes_compartidos)}
+          ${chipsIngredientes(x.ingredientes_compartidos, "", x.n_ingredientes_compartidos)}
         </section>
 
         <section class="bloque">
@@ -1153,12 +1230,23 @@
     const meta = await asegurarMeta();
     pintar(`
       <div class="prosa">
-        <h1>Sobre <em>Same Same</em></h1>
-        <p class="portada__bajada">Belleza informada, decisiones más conscientes.</p>
+        <div class="prosa__encabezado">
+          <div>
+            <h1>Sobre <em>Same Same</em></h1>
+            <p class="portada__bajada">Belleza informada, decisiones más conscientes.</p>
+          </div>
+          <img class="prosa__vizcacha" src="img/vizcacha.png" alt="Vizcacha, mascota de Same Same" width="520" height="485" decoding="async">
+        </div>
 
-        <p>Same Same nace de una pregunta sencilla: ¿realmente necesito comprar el producto más caro?</p>
+        <h2>De dónde viene</h2>
+        <p>Same Same empezó por una preocupación personal antes que por una pregunta técnica. Pasé por una etapa con tendencia al acné y eso cambió mi manera de comprar. Dejé de mirar únicamente el color y empecé a leer qué contenía cada producto que me ponía en la cara. Entendí ahí que la textura no es un detalle estético: es el resultado de una fórmula concreta, y esa fórmula determina cómo se siente el producto sobre la piel, cómo se comporta a lo largo del día y qué tan bien convive con ella. Desde entonces compro con cautela, y la lista de ingredientes es lo primero que reviso, tanto en maquillaje como en cuidado dermatológico.</p>
+        <p>A esa cautela se sumó una restricción más terrenal. Un labial de gama alta cuesta varias veces lo que cuesta uno de farmacia, y una parte de ese precio corresponde a una experiencia: el peso del envase, el deslizamiento, el aroma, la certeza de estar usando algo cuidadosamente formulado. Esa experiencia es real y tiene valor. La pregunta que faltaba responder era otra: cuánto de ese precio sostiene la fórmula y cuánto sostiene el relato que la rodea.</p>
         <p>Cada temporada, las redes sociales producen decenas de equivalencias virales que afirman que un labial económico es idéntico a uno de gama alta. Esas afirmaciones circulan sin criterio verificable: se apoyan en la impresión de una persona frente a una cámara, en la coincidencia de tono o en la simple repetición. Quien compra no tiene manera de contrastarlas.</p>
         <p>Este proyecto propone un criterio objetivo y auditable. Toma la única evidencia que la regulación cosmética obliga a publicar, la lista de ingredientes en nomenclatura INCI ordenada por concentración decreciente, y la convierte en una comparación reproducible entre fórmulas. Al resultado le suma el precio de referencia en pesos, porque la decisión de compra combina las dos cosas. El resultado no es una opinión: es una posición medida dentro de un catálogo, con un método declarado y una evaluación contra evidencia externa.</p>
+
+        <h2>Información a la vista, decisión de quien compra</h2>
+        <p>Tengo criterios propios sobre qué marcas me interesa apoyar y qué prefiero evitar en una fórmula. Esos criterios son míos: no están incorporados al modelo, no ordenan los resultados y no aparecen como recomendación en ninguna pantalla. Same Same no califica marcas como buenas o malas, no sugiere qué comprar y no define qué significa comprar bien.</p>
+        <p>Lo que sí hace es poner a la vista, en cada producto, lo que suele quedar en letra pequeña: qué contiene la fórmula, cuánto cuesta en realidad, si la marca aparece como libre de crueldad animal en las fuentes públicas consultadas y si la fórmula es vegana por composición. Esos datos se muestran siempre, también cuando la respuesta es desfavorable, porque una transparencia que solo se exhibe cuando conviene no es transparencia. Qué peso darles es decisión de quien compra.</p>
 
         <div class="pilares">
           <div class="pilar"><p class="pilar__titulo">Análisis de formulación</p><p>Comparación sobre la fórmula declarada, no sobre la percepción de color.</p></div>
@@ -1174,6 +1262,13 @@
         <h2>Alcance y honestidad del proyecto</h2>
         <p>Same Same es un proyecto académico de ciencia de datos y no mantiene relación comercial con ninguna de las marcas citadas. No vende productos, no recibe comisiones y no recomienda comprar. Su utilidad está en lo contrario: en decir con claridad cuándo la evidencia no alcanza para sostener una afirmación popular.</p>
         <p>Las limitaciones están declaradas en la sección de metodología y forman parte del resultado, no son una nota al pie.</p>
+
+        <h2>Hacia dónde va</h2>
+        <ul>
+          <li><strong>Pregúntale a la vizcacha.</strong> Un asistente conversacional con la mascota de la marca como interlocutora, capaz de entender una pregunta en lenguaje corriente y resolverla llamando a las funciones de este mismo sistema. La regla de diseño es que solo puede afirmar lo que esas funciones devuelven: el veredicto lo sigue emitiendo el modelo calibrado.</li>
+          <li><strong>Vista de analista.</strong> Cobertura por marca y por arquetipo de fórmula, brechas de precio entre productos equivalentes y consultas sin alternativa de nivel alto, que son las que señalan un hueco de surtido en el mercado mexicano.</li>
+          <li><strong>Precio por unidad de contenido.</strong> Recolección periódica de precios en minoristas mexicanos con registro del contenido neto, para comparar por gramo o mililitro y no solo por envase.</li>
+        </ul>
       </div>
     `);
   }

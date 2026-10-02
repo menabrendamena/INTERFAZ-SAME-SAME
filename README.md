@@ -4,6 +4,8 @@ Validador de equivalencias de formulación entre productos labiales de gama alta
 
 El sistema responde una sola pregunta: si la base química de una alternativa accesible sostiene la equivalencia que se le atribuye frente a un producto de gama alta. A esa respuesta le añade cuánto se ahorra. No evalúa tono ni desempeño en uso.
 
+Este repositorio contiene la aplicación web. El cuaderno de punta a punta que produce los artefactos que aquí se consumen, junto con los datos de origen, vive en [menabrendamena/same-same](https://github.com/menabrendamena/same-same).
+
 ## Arquitectura
 
 ```
@@ -61,7 +63,7 @@ Sobre esas dos magnitudes se construye una escala de tres niveles con umbrales d
 
 El umbral de separación del nivel más alto es el percentil diez de la separación que alcanza el primer candidato a lo largo de las consultas del catálogo. El umbral de percentil del nivel intermedio es la mediana del percentil que alcanzan las equivalencias documentadas.
 
-La etiqueta se calcula siempre contra el universo completo de 498 fórmulas económicas. Los filtros de consumo responsable y de formato restringen qué alternativas se muestran, nunca el juicio sobre cada una de ellas.
+La etiqueta se calcula siempre contra el universo completo de 498 fórmulas económicas. Los filtros de crueldad animal, origen vegano y formato restringen qué alternativas se muestran, nunca el juicio sobre cada una de ellas.
 
 **Empates.** Numerosas candidatas comparten exactamente el mismo vehículo y, por lo tanto, la misma similitud. El coseno de dos vectores idénticos puede diferir en el último dígito según el procesador y el orden de las sumas, con diferencias del orden de 1e-16. Como el percentil depende del rango y los umbrales de la escala se aplican sobre el percentil, un empate roto por ese ruido cambiaría el nivel de una candidata. El rango se calcula con una tolerancia de `1e-12`, declarada en `configuracion_app.json` bajo `modelo.tolerancia_empate`, cuatro órdenes de magnitud por encima del ruido numérico y por debajo de cualquier diferencia real entre candidatas.
 
@@ -95,6 +97,10 @@ La capa de presentación agrupa las 645 fórmulas en 548 líneas comerciales. El
 **Dos niveles de lectura.** El flujo principal está escrito para quien compra un labial y no usa vocabulario estadístico. El percentil, la separación robusta, la posición dentro del catálogo, la descomposición del puntaje y el perfil funcional completo viven dentro de bloques plegables rotulados como detalle técnico, presentes en cada alternativa y en la comparación. Nada se elimina: se separa por perfil de lectura.
 
 **Estado de los filtros.** Los filtros del catálogo viven en el fragmento de la dirección, no en memoria. Cambiar de sección los limpia por omisión, y una dirección con filtros puede compartirse tal cual.
+
+**Panel de filtros.** En escritorio el panel queda fijo al costado del catálogo con altura acotada a la ventana y desplazamiento propio, de modo que todos los grupos quedan alcanzables sin recorrer la página. El encabezado del panel permanece visible mientras el contenido se desplaza y declara cuántos filtros hay activos. Por debajo de 880 píxeles el panel se convierte en una barra fija plegable que abre y cierra con un toque.
+
+**Transparencia simétrica.** La clasificación de crueldad animal y la aptitud vegana se muestran siempre, en el catálogo, en la ficha de producto, en la lista de alternativas y en la comparación, tanto cuando el resultado es favorable como cuando no lo es. El sistema expone el dato y no ordena los resultados por ese criterio ni lo presenta como recomendación.
 
 ## API
 
@@ -159,5 +165,5 @@ vercel --prod
 ## Siguientes pasos
 
 - Vista de analista sobre los mismos artefactos: cobertura por marca y arquetipo, brechas de precio entre fórmulas equivalentes y consultas sin alternativa de nivel alto, que señalan oportunidades de surtido.
-- Asistente conversacional con llamadas a funciones, que interprete la consulta en lenguaje natural y llame a las funciones de recomendación y comparación como herramientas. El veredicto seguiría emitiéndolo el sistema calibrado.
+- Asistente conversacional encarnado en la vizcacha, la mascota de la marca, que interprete la consulta en lenguaje natural y resuelva mediante llamadas a funciones sobre esta misma API: `buscar_producto`, `validar_par`, `alternativas` y `precio`, cada una con esquema de salida estructurada. La restricción de diseño es que el asistente solo puede afirmar lo que las funciones devuelven, de modo que el veredicto lo sigue emitiendo el sistema calibrado y el modelo de lenguaje se limita a comprender la pregunta y a redactar la respuesta.
 - Recolección periódica de precios en minoristas mexicanos, con registro del contenido neto para comparar precio por gramo o mililitro.

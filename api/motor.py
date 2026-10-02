@@ -150,6 +150,26 @@ def _en_lenguaje_llano(texto: str) -> str:
     return resultado
 
 
+def _minuscula_inicial(texto: str) -> str:
+    """Baja solo la primera letra, de modo que una etiqueta pueda insertarse dentro de una
+    oración sin alterar siglas ni notaciones como pH."""
+    cadena = str(texto or "")
+    return cadena[:1].lower() + cadena[1:]
+
+
+def _enumerar(elementos: list[str]) -> str:
+    """Encadena una lista con la conjunción española. Cuando algún elemento ya contiene una
+    conjunción, separa con comas para no producir dos conjunciones seguidas."""
+    limpios = [e for e in elementos if e]
+    if not limpios:
+        return ""
+    if len(limpios) == 1:
+        return limpios[0]
+    if any(" y " in e for e in limpios):
+        return ", ".join(limpios)
+    return ", ".join(limpios[:-1]) + " y " + limpios[-1]
+
+
 def _leer_csv(ruta: Path) -> list[dict[str, str]]:
     with open(ruta, encoding="utf-8-sig", newline="") as archivo:
         return list(csv.DictReader(archivo))
@@ -1064,18 +1084,20 @@ class MotorSameSame:
         else:
             encabezado = (
                 f"Comparten {n_compartidos} ingredientes de la base química visible para el "
-                f"modelo, encabezados por {', '.join(destacados[:3])}."
+                f"modelo, encabezados por {_enumerar(destacados[:3])}."
             )
 
         resumen = (
             encabezado
             + (
-                f" Coincidencias poco comunes en el catálogo: {', '.join(distintivos)}."
+                f" Coincidencias poco comunes en el catálogo: {_enumerar(distintivos)}."
                 if distintivos
                 else ""
             )
             + (
-                f" La arquitectura funcional coincide sobre todo en {', '.join(familias)}."
+                " La arquitectura funcional coincide sobre todo en "
+                + _enumerar([_minuscula_inicial(f) for f in familias])
+                + "."
                 if familias
                 else ""
             )
@@ -1092,7 +1114,7 @@ class MotorSameSame:
                 partes.append(
                     f"el de gama alta declara {len(solo_lujo)} que la alternativa no tiene"
                     + (
-                        f", encabezados por {', '.join(r['ingrediente'] for r in solo_lujo[:3])}"
+                        f", encabezados por {_enumerar([r['ingrediente'] for r in solo_lujo[:3]])}"
                         if solo_lujo
                         else ""
                     )
@@ -1101,7 +1123,7 @@ class MotorSameSame:
                 partes.append(
                     f"la alternativa declara {len(solo_dupe)} que el de gama alta no tiene"
                     + (
-                        f", encabezados por {', '.join(r['ingrediente'] for r in solo_dupe[:3])}"
+                        f", encabezados por {_enumerar([r['ingrediente'] for r in solo_dupe[:3]])}"
                         if solo_dupe
                         else ""
                     )
@@ -1109,7 +1131,9 @@ class MotorSameSame:
             resumen_diferencias = "De los ingredientes que el sistema compara, " + " y ".join(partes) + "."
             if contrastes and contrastes[0]["brecha"] > 0:
                 resumen_diferencias += (
-                    f" La mayor diferencia de construcción está en {contrastes[0]['nombre_llano'].lower()}."
+                    " La mayor diferencia de construcción está en "
+                    + _minuscula_inicial(contrastes[0]["nombre_llano"])
+                    + "."
                 )
 
         return {
